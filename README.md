@@ -26,7 +26,7 @@ Continuously tracking the research progress of SAM in the field of remote sensin
 
 | Date     | Name               | Title                                                                                                            | Code |
 |----------|--------------------|----------------------------------------------------------------------------------------------------------------|------|
-| 2024.10  | RS-TextWS-Seg      | Context-Aggregated and SAM-Guided Network for ViT-Based Instance Segmentation in Remote Sensing Images           | None |
+|  <div align="center">2024.10</div>  | RS-TextWS-Seg      | Context-Aggregated and SAM-Guided Network for ViT-Based Instance Segmentation in Remote Sensing Images           | None |
 |          | SinkSAM            | SinkSAM: A Monocular Depth-Guided SAM Framework for Automatic Sinkhole Segmentation                              | None |
 |          | SAMPolyBuild       | SAMPolyBuild: Adapting the Segment Anything Model for Polygonal Building Extraction                              | None |
 |          | SolarSAM           | SolarSAM: Building-Scale Photovoltaic Potential Assessment Based on SAM and Remote Sensing                       | None |
