@@ -2,7 +2,7 @@
 Continuously tracking the research progress of SAM in the field of remote sensing.
 
 
-# Monthly Research Publications on Segment Anything Model (SAM) in the Field of Remote Sensing"
+# Monthly Research Literature on Segment Anything Model (SAM) in the Field of Remote Sensing（“Further Revisions Needed”）
 
 | Date     | Name               | Title                                                                                                            | Code |
 |----------|--------------------|----------------------------------------------------------------------------------------------------------------|------|
