@@ -1,6 +1,11 @@
 # WanSAM4RS-Tracker
 Continuously tracking the research progress of SAM in the field of remote sensing.
 
+A brief timeline of SAM’s development in RSII tasks (April 2023 - after March 2025).
+
+![image](https://github.com/WanZhan-lucky/WanSAM4RS-Tracker/blob/main/SAMTimeWan-analysis-bigrevised.png)
+
+
 
 # Monthly Research Literature on Segment Anything Model (SAM) in the Field of Remote Sensing（“Further Revisions Needed”）
 
