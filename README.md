@@ -38,7 +38,7 @@ If you find our work useful in your research, please consider citing:
 - [Awesome Repositories for SAM]()
 
 
-##A brief timeline of SAM’s development in RSII tasks <div id="introduction"></div>
+## A brief timeline of SAM’s development in RSII tasks <div id="introduction"></div>
 ![image](https://github.com/WanZhan-lucky/WanSAM4RS-Tracker/blob/main/SAMTimeWan-analysis-bigrevised.png)
 <p align="center">A brief timeline of SAM’s development in RSII tasks (April 2023 - after March 2025). </p>
 
@@ -96,9 +96,7 @@ If you find our work useful in your research, please consider citing:
     * [2025.01.29] SAM Enhanced Semantic Segmentation for Remote Sensing Imagery Without Additional Training   https://github.com/qycools/SESSRS   https://ieeexplore.ieee.org/document/10857947
     * https://github.com/AkashahS/segRS
  
-  
-
-# Monthly Research Literature on Segment Anything Model (SAM) in the Field of Remote Sensing（“Further Revisions Needed”）
+## Monthly Research Literature on Segment Anything Model (SAM) in the Field of Remote Sensing（“Further Revisions Needed”）
 
 | Date     | Name               | Title                                                                                                            | Code |
 |----------|--------------------|----------------------------------------------------------------------------------------------------------------|------|
