@@ -34,12 +34,12 @@ Continuously tracking the research progress of SAM in the field of remote sensin
 - [2024.08] **SSRS** : Segment anything [[paper]()][[github]()][[chinese explanation]()][[homepage]()]
 - [2024.09] **SAM-RSIS** : "SAM-RSIS: progressively adapting SAM with box prompting to remote sensing image instance segmentation" [[paper](https://ieeexplore.ieee.org/abstract/document/10680168)][[github]()][[chinese explanation]()][[homepage]()]
 - [2024.09] **Point-SAM** : "PointSAM: Pointly-Supervised Segment Anything Model for Remote Sensing Images" [[paper](https://ieeexplore.ieee.org/abstract/document/10839471)][[github](https://github.com/Lans1ng/PointSAM)][[chinese explanation](https://wxredian.com/art?id=e26bd8fbad5feab3bc864e380b47dc6c)][[homepage]()]
-- [2024.09] **SCM** : "Segment anything [[paper]()][[github]()][[chinese explanation]()][[homepage]()]
-- [2024.09] **BF-SAM** : Segment anything [[paper]()][[github]()][[chinese explanation]()][[homepage]()]
+- [2024.09] **SCM** : "Segment change model (scm) for unsupervised change detection in vhr remote sensing images: a case study of buildings" [[paper](https://ieeexplore.ieee.org/abstract/document/10642429)][[github](https://github.com/StephenApX/UCD-SCM)][[chinese explanation](https://zhuanlan.zhihu.com/p/675815166)][[homepage]()]
+- [2024.09] **BF-SAM** : "BF-SAM: enhancing SAM through multi-modal fusion for fine-grained building function identification" [[paper]()][[github]()][[chinese explanation]()][[homepage](https://www.tandfonline.com/doi/abs/10.1080/13658816.2024.2399142)]
 - [2024.09] **TFNet** : "Segment anything" [[paper]()][[github]()][[chinese explanation]()][[homepage]()]
-- [2024.10] **RSPS-SAM** : "Segment anything" [[paper]()][[github]()][[chinese explanation]()][[homepage]()]
-- [2024.10] **SolarSAM** : "Segment anything" [[paper]()][[github]()][[chinese explanation]()][[homepage]()]
-- [2024.11] **MANet** : "Segment anything" [[paper]()][[github]()][[chinese explanation]()][[homepage]()]
+- [2024.10] **RSPS-SAM** : "RSPS-SAM: A Remote Sensing Image Panoptic Segmentation Method Based on SAM" [[paper](https://www.mdpi.com/2072-4292/16/21/4002)][[github]()][[chinese explanation]()][[homepage]()]
+- [2024.10] **SolarSAM** : "SolarSAM: Building-scale Photovoltaic Potential Assessment Based on Segment Anything Model (SAM) and Remote Sensing for Emerging City" [[paper](https://www.sciencedirect.com/science/article/pii/S0960148124016288)][[github](https://github.com/REAILAB/SolarSAM?tab=readme-ov-file)][[chinese explanation]()][[homepage]()]
+- [2024.11] **MANet** : "MANet: Fine-Tuning Segment Anything Model for Multimodal Remote Sensing Semantic Segmentation" [[paper](https://arxiv.org/abs/2410.11160)][[github](https://github.com/sstary/SSRS)][[chinese explanation]()][[homepage]()]
 - [2024.11] **DED-SAM** : "Segment anything" [[paper]()][[github]()][[chinese explanation]()][[homepage]()]
 - [2024.12] **SEMPNet** : "Segment anything" [[paper]()][[github]()][[chinese explanation]()][[homepage]()]
 - [2024.12] **RS-SAM** : "Segment anything" [[paper]()][[github]()][[chinese explanation]()][[homepage]()]
@@ -54,6 +54,9 @@ Continuously tracking the research progress of SAM in the field of remote sensin
   
   
 + [ ] Waiting for further updates ！
+  * [2025.07.02] **UrbanSAM** : "A Unified Framework with Multimodal Fine-tuning for Remote Sensing Semantic Segmentation" [[paper](https://ieeexplore.ieee.org/document/11063320)][[中文解读] (https://zhuanlan.zhihu.com/p/1924856324799324614)][[github](https://github.com/sstary/SSRS)]
+    * fsd
+  
 
 # Monthly Research Literature on Segment Anything Model (SAM) in the Field of Remote Sensing（“Further Revisions Needed”）
 
