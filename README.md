@@ -40,22 +40,25 @@ Continuously tracking the research progress of SAM in the field of remote sensin
 - [2024.10] **RSPS-SAM** : "RSPS-SAM: A Remote Sensing Image Panoptic Segmentation Method Based on SAM" [[paper](https://www.mdpi.com/2072-4292/16/21/4002)][[github]()][[chinese explanation]()][[homepage]()]
 - [2024.10] **SolarSAM** : "SolarSAM: Building-scale Photovoltaic Potential Assessment Based on Segment Anything Model (SAM) and Remote Sensing for Emerging City" [[paper](https://www.sciencedirect.com/science/article/pii/S0960148124016288)][[github](https://github.com/REAILAB/SolarSAM?tab=readme-ov-file)][[chinese explanation]()][[homepage]()]
 - [2024.11] **MANet** : "MANet: Fine-Tuning Segment Anything Model for Multimodal Remote Sensing Semantic Segmentation" [[paper](https://arxiv.org/abs/2410.11160)][[github](https://github.com/sstary/SSRS)][[chinese explanation]()][[homepage]()]
-- [2024.11] **DED-SAM** : "Segment anything" [[paper]()][[github]()][[chinese explanation]()][[homepage]()]
-- [2024.12] **SEMPNet** : "Segment anything" [[paper]()][[github]()][[chinese explanation]()][[homepage]()]
-- [2024.12] **RS-SAM** : "Segment anything" [[paper]()][[github]()][[chinese explanation]()][[homepage]()]
-- [2025.01] **CWSAM** : "Segment anything" [[paper]()][[github]()][[chinese explanation]()][[homepage]()]
+- [2024.11] **DED-SAM** : "DED-SAM: Adapting Segment Anything Model 2 for Dual Encoder-Decoder Change Detection" [[paper](https://ieeexplore.ieee.org/abstract/document/10741350)][[github]()][[chinese explanation]()][[homepage]()]
+- [2024.12] **SEMPNet** : "SEMPNet: enhancing few-shot remote sensing image semantic segmentation through the integration of the segment anything model" [[paper]()][[github]()][[chinese explanation]()][[homepage](https://www.tandfonline.com/doi/full/10.1080/15481603.2024.2426589)]
+- [2024.12] **RS-SAM** : "RS-SAM: Integrating Multi-scale Information for Enhanced Remote Sensing Image Segmentation" [[paper](https://openaccess.thecvf.com/content/ACCV2024/papers/Zhang_RS-SAM_Integrating_Multi-Scale_Information_for_Enhanced_Remote_Sensing_Image_Segmentation_ACCV_2024_paper.pdf)][[github]()][[chinese explanation]()][[homepage](https://openaccess.thecvf.com/content/ACCV2024/html/Zhang_RS-SAM_Integrating_Multi-Scale_Information_for_Enhanced_Remote_Sensing_Image_Segmentation_ACCV_2024_paper.html)]
+- [2025.01] **CWSAM** : "ClassWise-SAM-adapter: Parameter efficient fine-tuning adapts segment anything to SAR domain for semantic segmentation" [[paper](https://ieeexplore.ieee.org/abstract/document/10849617)][[github](https://github.com/xypu98/CWSAM)][[chinese explanation](https://zhuanlan.zhihu.com/p/690725962)][[Blog](https://blog.csdn.net/m0_64106140/article/details/135729375)]
 - [2025.01] **PSP-SAM** : "Segment anything" [[paper]()][[github]()][[chinese explanation]()][[homepage]()]
-- [2025.01] **ASS-CD** : "Segment anything" [[paper]()][[github]()][[chinese explanation]()][[homepage]()]
+- [2025.01] **ASS-CD** : "ASS-CD: Adapting Segment Anything Model and Swin-Transformer for Change Detection in Remote Sensing Images" [[paper](https://www.mdpi.com/2072-4292/17/3/369)][[github]()][[chinese explanation]()][[homepage]()]
 - [2025.01] **MSA-SAM** : "Segment anything" [[paper]()][[github]()][[chinese explanation]()][[homepage]()]
-- [2025.02] **UrbanSAM** : "Segment anything" [[paper]()][[github]()][[chinese explanation]()][[homepage]()]
-- [2025.03-] **ROS-SAM** : "Segment anything" [[paper]()][[github]()][[chinese explanation]()][[homepage]()]
+- [2025.02] **UrbanSAM** : "Urbansam: Learning invariance-inspired adapters for segment anything models in urban construction" [[paper](https://arxiv.org/abs/2502.15199)][[github]()][[chinese explanation](https://developer.volcengine.com/articles/7480397554527109129)][[homepage]()]
+- [2025.03-] **ROS-SAM** : "Segment anything" [[paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Shan_ROS-SAM_High-Quality_Interactive_Segmentation_for_Remote_Sensing_Moving_Object_CVPR_2025_paper.pdf)][[github](https://github.com/ShanZard/ROS-SAM)][[chinese explanation](https://zhuanlan.zhihu.com/p/1893242456016928919)][[explanation2](https://developer.volcengine.com/articles/7501164018351112201)][[homepage](https://openaccess.thecvf.com/content/CVPR2025/html/Shan_ROS-SAM_High-Quality_Interactive_Segmentation_for_Remote_Sensing_Moving_Object_CVPR_2025_paper.html)]
 - [2025.03-] **RS2-SAM2** : "Segment anything" [[paper]()][[github]()][[chinese explanation]()][[homepage]()]
 - [2025.03-] **DirectSAM-RS** : "Segment anything" [[paper]()][[github]()][[chinese explanation]()][[homepage]()]
   
   
 + [ ] Waiting for further updates ！
   * [2025.07.02] **UrbanSAM** : "A Unified Framework with Multimodal Fine-tuning for Remote Sensing Semantic Segmentation" [[paper](https://ieeexplore.ieee.org/document/11063320)][[中文解读] (https://zhuanlan.zhihu.com/p/1924856324799324614)][[github](https://github.com/sstary/SSRS)]
-    * fsd
+    * SAM-CD  Adapting Segment Anything Model for Change Detection in VHR Remote Sensing Images  https://ieeexplore.ieee.org/document/10443350   https://github.com/DingLei14/SAM-CD
+    * SCD-SAM  SCD-SAM: Adapting Segment Anything Model for Semantic Change Detection in Remote Sensing Imagery https://ieeexplore.ieee.org/abstract/document/10543161
+    * [2025.05.09] Few-Shot Semantic Segmentation on Remote Sensing Images With Learnable Prototype  [[paper](https://ieeexplore.ieee.org/abstract/document/10994816)]
+    * UV-SAM  https://zhuanlan.zhihu.com/p/678607517  https://hub.baai.ac.cn/view/34556
   
 
 # Monthly Research Literature on Segment Anything Model (SAM) in the Field of Remote Sensing（“Further Revisions Needed”）
