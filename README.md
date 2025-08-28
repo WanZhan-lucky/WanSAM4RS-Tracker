@@ -22,7 +22,7 @@ If you find our work useful in your research, please consider citing:
 ## :fire: Highlights
 ![Last Updated](https://badgen.net/github/last-commit/liliu-avril/Awesome-Segment-Anything?icon=github&label=last%20updated&color=green)
 ```
--- We will keep updating SAM’s latest progress in RS.
+-- We will continue to follow SAM’s latest progress in RS and update related research accordingly.
 -- We also encourage and welcome researchers to actively contribute.
 -- You can add paper information by submitting a Pull Request!
 ```
