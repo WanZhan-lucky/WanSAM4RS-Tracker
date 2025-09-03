@@ -31,7 +31,7 @@ If you find our work useful in your research, please consider citing:
  - You can add paper information by submitting a Pull Request!
 ```
 
-## 🧩 Main contents
+## 🧩 Main contents [![Last Commited](https://img.shields.io/github/last-commit/WanZhan-lucky/WanSAM4RS-Tracker?label=Last%20Updated&color=purple)](https://github.com/WanZhan-lucky/WanSAM4RS-Tracker/commits)
 - [1、Segment Anything Model](#SAM)
 - [2、Literature Reviews on SAM Since Its Release](#sam-reviews)
 - [3、A brief timeline of SAM’s development in RSII tasks](#introduction)
