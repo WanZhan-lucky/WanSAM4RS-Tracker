@@ -30,7 +30,8 @@ If you find our work useful in your research, please consider citing:
 ## Main contents
 - [SAM](#SAM)
 - [A brief timeline of SAM’s development in RSII tasks](#introduction)
-- [ Overview of SAM-Based Adaptation Methods in RSII](#adapation)
+- [ Overview of SAM-Based Adaptation Methods in RSII](#adaptation)
+- 
 - [Paper List](#paper-list) 
   - [Follow-up Papers ](#follow-up-papers)
     - [2025](#2025)
@@ -39,7 +40,7 @@ If you find our work useful in your research, please consider citing:
 - [Open Source Projects]()
 - [Awesome Repositories for SAM]()
 
-## About Segment Anything Model (SAM) <div id="SAM"></div>
+## Segment Anything Model (SAM) <div id="SAM"></div>
 
 Meta AI introduced the foundational vision model Segment Anything Model ([SAM](https://segment-anything.com/)), which adopts a prompt-driven image segmentation paradigm to generate precise object masks automatically or interactively. SAM demonstrates remarkable performance in natural image processing tasks. Its core architecture  comprises three main components: an image encoder based on the Vision Transformer (ViT) architecture , a prompt encoder, and a mask decoder.
 ![image](https://github.com/WanZhan-lucky/WanSAM4RS-Tracker/blob/main/SAMRSI.jpg)
