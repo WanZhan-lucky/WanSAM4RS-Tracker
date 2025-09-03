@@ -28,7 +28,8 @@ If you find our work useful in your research, please consider citing:
 ```
 
 ## Main contents
-- [A brief timeline of SAM’s development in RSII tasks](#SAM)
+- [SAM](#SAM)
+- [A brief timeline of SAM’s development in RSII tasks](#introduction)
 - [Survey](#survey)
 - [Paper List](#paper-list) 
   - [Follow-up Papers ](#follow-up-papers)
@@ -40,13 +41,11 @@ If you find our work useful in your research, please consider citing:
 
 ## About Segment Anything Model (SAM) <div id="SAM"></div>
 
-Meta AI introduced the foundational vision model Segment Anything Model [SAM](https://segment-anything.com/)., which adopts a prompt-driven image segmentation paradigm to generate precise object masks automatically or interactively. SAM demonstrates remarkable performance in natural image processing tasks. Its core architecture  comprises three main components: an image encoder based on the Vision Transformer (ViT) architecture , a prompt encoder, and a mask decoder.
-
-![image]()
+Meta AI introduced the foundational vision model Segment Anything Model ([SAM](https://segment-anything.com/)), which adopts a prompt-driven image segmentation paradigm to generate precise object masks automatically or interactively. SAM demonstrates remarkable performance in natural image processing tasks. Its core architecture  comprises three main components: an image encoder based on the Vision Transformer (ViT) architecture , a prompt encoder, and a mask decoder.
+![image](https://github.com/WanZhan-lucky/WanSAM4RS-Tracker/blob/main/SAMRSI.jpg)
 
 ## A brief timeline of SAM’s development in RSII tasks <div id="introduction"></div>
 ![image](https://github.com/WanZhan-lucky/WanSAM4RS-Tracker/blob/main/SAMTimeWan-analysis-bigrevised.png)
-<p align="center">A brief timeline of SAM’s development in RSII tasks (April 2023 - after March 2025). </p>
 
 - [2023.04] **SAM** : "Segment anything" [[paper](https://arxiv.org/abs/2304.02643)][[homepage](https://segment-anything.com)]
 - [2023.04] **Text2Seg** : "Text2seg: Remote sensing image semantic segmentation via text-guided visual foundation models" [[paper](https://arxiv.org/abs/2304.10597)][[github](https://github.com/Douglas2Code/Text2Seg)][[Chinese explanation](https://zhuanlan.zhihu.com/p/672832552)]
