@@ -313,6 +313,6 @@ The following is a supplementary review on SAM; contributions of additional rela
 - **Waiting for replenishment** ......
 
 ## 📦 License
-This project is licensed under the [MIT License](./LICENSE).  
+This project is licensed under the [MIT License](./LICENSE.txt).  
 You are free to use, modify, and distribute this software with proper attribution.
 
