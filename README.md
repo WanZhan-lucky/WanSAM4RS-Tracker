@@ -1,5 +1,8 @@
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
-[![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+[![PR's Welcome](https://img.shields.io/badge/PRs-welcome-orange.svg?style=flat)](http://makeapullrequest.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+
 
 # 📝 A Systematic Survey and Meta-Analysis of the Segment Anything Model in Remote Sensing Image Processing: Challenges, Advances, Applications, and Opportunities
 
@@ -22,7 +25,6 @@ If you find our work useful in your research, please consider citing:
 ```
 
 ## :fire: Highlights
-![Last Updated](https://badgen.net/github/last-commit/liliu-avril/Awesome-Segment-Anything?icon=github&label=last%20updated&color=green)
 ```
  - We will continue to follow SAM’s latest progress in RS and update related research accordingly.
  - We also encourage and welcome researchers to actively contribute.
@@ -43,7 +45,7 @@ If you find our work useful in your research, please consider citing:
   - [To be supplemented](#supplement)
   
 
-## ✨Latest Updates & 📢 Related Content！
+## ✨Latest Updates & 📢 Related Content！ [![Last Updated](https://img.shields.io/github/last-commit/WanZhan-lucky/WanSAM4RS-Tracker?label=Last%20Updated&color=blue)](https://github.com/WanZhan-lucky/WanSAM4RS-Tracker/commits)
   + [ ]  [2025.07.02] **UrbanSAM** : "A Unified Framework with Multimodal Fine-tuning for Remote Sensing Semantic Segmentation" [[paper](https://ieeexplore.ieee.org/document/11063320)][[中文解读] (https://zhuanlan.zhihu.com/p/1924856324799324614)][[github](https://github.com/sstary/SSRS)]
   + [x] SAM-CD  Adapting Segment Anything Model for Change Detection in VHR Remote Sensing Images  https://ieeexplore.ieee.org/document/10443350   https://github.com/DingLei14/SAM-CD https://github.com/DingLei14/SAM-CD
   * SCD-SAM  SCD-SAM: Adapting Segment Anything Model for Semantic Change Detection in Remote Sensing Imagery https://ieeexplore.ieee.org/abstract/document/10543161
