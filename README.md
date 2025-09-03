@@ -30,7 +30,7 @@ If you find our work useful in your research, please consider citing:
 ## Main contents
 - [SAM](#SAM)
 - [A brief timeline of SAM’s development in RSII tasks](#introduction)
-- [Survey](#survey)
+- [ Overview of SAM-Based Adaptation Methods in RSII](#adapation)
 - [Paper List](#paper-list) 
   - [Follow-up Papers ](#follow-up-papers)
     - [2025](#2025)
@@ -91,7 +91,51 @@ Meta AI introduced the foundational vision model Segment Anything Model ([SAM](h
 - [2025.03] **DirectSAM-RS** : "Prompting DirectSAM for Semantic Contour Extraction in Remote Sensing Images" [[paper](https://ieeexplore.ieee.org/abstract/document/10889192)][[github](https://github.com/StevenMsy/DirectSAM-RS)]
 
 *If you find any incomplete parts in the compilation, especially missing GitHub links for papers, please feel free to let me know by submitting an issue on GitHub. I will update and improve it in a timely manner.*
-  
+
+## Overview of SAM-Based Adaptation Methods in RSII <div id="adaptation"></div>
+| **Name** | **Title** | **Link** |
+|:----------:|:-----------:|:----------:|
+|CWSAM | | [ClassWise‑SAM‑Adapter (Parameter‑Efficient Fine‑tuning for SAR segmentation)](https://arxiv.org/abs/2401.02326) :contentReference[oaicite:1]{index=1} |
+|Water-Adapter		| | |
+|RSAM-Seg		| | |
+|MC-SAM	SEG	| | |
+|MSA-SAM		| | |
+|RS-SAM		| | |
+|UrbanSAM		| | |
+|Road-SAM		| | |
+|MANet		| | |
+|Conv-LoRA		| | |
+|SAM_MLoRA		| | |
+|MAF-SAM		| | |
+|ROS-SAM		| | |
+|AFFE-SAM		| | |
+|MoPEFT		| | |
+|Few-shot SLVM		| | |
+|SAM-RSIS		| | |
+|RSPrompter		| | |
+|GeoSAM		| | |
+|UV-SAM		| | |
+|PointSAM		| | |
+|PSP-SAM		| | |
+|MeSAM		| | |
+|BSDSNet		| | |
+|SAM-CFFNet		| | |
+|Text2Seg		| | |
+|RS2-SAM2		| | |
+|RSRefSeg		| | |
+|DirectSAM-RS		| | |
+|E2SAM		| | |
+|RingMoSAM		| | |
+|MM-SAM		| | |
+|AerOSeg		| | |
+|InstructSAM		| | |
+|PerSAM		| | |
+|Few-Shot SLVM		| | |
+|SEMPNET		| | |
+|SSRS		| | |
+|TFNet | | |
+
+
 + [ ] Waiting for further updates ！
   * [2025.07.02] **UrbanSAM** : "A Unified Framework with Multimodal Fine-tuning for Remote Sensing Semantic Segmentation" [[paper](https://ieeexplore.ieee.org/document/11063320)][[中文解读] (https://zhuanlan.zhihu.com/p/1924856324799324614)][[github](https://github.com/sstary/SSRS)]
     * SAM-CD  Adapting Segment Anything Model for Change Detection in VHR Remote Sensing Images  https://ieeexplore.ieee.org/document/10443350   https://github.com/DingLei14/SAM-CD https://github.com/DingLei14/SAM-CD
