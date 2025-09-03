@@ -28,13 +28,13 @@ If you find our work useful in your research, please consider citing:
 ```
 
 ## 🧩 Main contents
-- [Segment Anything Model](#SAM)
-- [Literature Reviews on SAM Since Its Release](#sam-reviews)
-- [A brief timeline of SAM’s development in RSII tasks](#introduction)
-- [Overview of SAM-Based Adaptation Methods in RSII](#adaptation)
-- [Summary of SAM-Based Methods for Routine Remote Sensing Tasks](#sam-rs-tasks)
-- [Summary of SAM-Based Methods for Specific Remote Sensing Applications](#sam-summary)
-- [A Chronological List of SAM-Based Model Papers for Remote Sensing](#sam-paper-list)
+- [1、Segment Anything Model](#SAM)
+- [2、Literature Reviews on SAM Since Its Release](#sam-reviews)
+- [3、A brief timeline of SAM’s development in RSII tasks](#introduction)
+- [4、Overview of SAM-Based Adaptation Methods in RSII](#adaptation)
+- [5、Summary of SAM-Based Methods for Routine Remote Sensing Tasks](#sam-rs-tasks)
+- [6、Summary of SAM-Based Methods for Specific Remote Sensing Applications](#sam-summary)
+- [7、A Chronological List of SAM-Based Model Papers for Remote Sensing Research](#sam-paper-list)
   - [2023](#2023)
   - [2024](#2024)
   - [2025](#2025)
