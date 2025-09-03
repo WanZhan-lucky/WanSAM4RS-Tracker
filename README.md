@@ -307,5 +307,5 @@ The following is a supplementary review on SAM; contributions of additional rela
 #### June
 #### July
 #### August
-####  📅September🗓️   <div id="supplement"></div> 
+####  📅September🗓️ <div id="supplement"></div> 
 - **Waiting for replenishment** ......
