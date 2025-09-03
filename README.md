@@ -8,9 +8,11 @@
 > **<p align="justify"> Abstract:** *In recent years, artificial intelligence (AI) technology has profoundly revolutionized the domain of remote sensing (RS), bringing transformative changes from data collection to analysis. Traditional remote sensing image interpretation (RSII) relies on manual interpretation and task-specific models, which suffer from low efficiency, high costs, and poor generalization, making them inadequate for large-scale data processing and complex tasks. With the emergence of foundational models (FMs) (i.e., large pre-trained AI models), not only has efficiency and accuracy been significantly improved, but diverse tasks can also be executed efficiently. Notably, the segment anything model (SAM) has challenged traditional visual paradigms, sparking widespread interest in task-agnostic visual FMs. Its exceptional zero-shot generalization capability has demonstrated outstanding performance in natural scenes, offering new perspectives and methodologies for the automation and intelligence of RSII. However, there are significant differences in spatial characteristics and data structures between RS images and natural images, meaning the application potential of SAM in RSII has yet to be comprehensively evaluated. Although existing studies have demonstrated SAM's adaptability in RSII, the current literature lacks systematic and in-depth reviews. To fill this gap, this study conducts a comprehensive review and meta-analysis for the first time, focusing on the challenges, advances, applications, and potential of SAM in RSII. The paper first reviews SAM’s advances in RS and compiles relevant research findings. It then analyzes the inherent challenges of RS and explores the bottlenecks of SAM in RS, including semantic information loss, discrepancies between training and target domains, prompt dependency and design complexity, and insufficient robustness. Next, it outlines the details of the meta-analysis conducted to reveal the research status of SAM in RS. Following that, the paper delves into the adaptation methods of SAM in RS image processing and evaluates its performance in both general and specific RS tasks. Finally, future research directions are summarized. Additionally, to support the continued development of this field, a dedicated repository has been created and maintained [here](https://github.com/WanZhan-lucky/WanSAM4RS-Tracker).* </p>
 
 ## 📌 Contributions
-- 1) To our knowledge, this work conducts the first comprehensive and systematic review of the recent advancements of SAM in RS, fills gaps in current studies and offers a reference for the latest developments in this domain. 
-- 2) Starting from the inherent challenges of the RS domain, this study identifies the bottlenecks of SAM in RSII tasks, explores its adaptation strategies, systematically evaluates its performance in both general and specific tasks, and proposes future research directions to expand its application scope and advance the field.
-- 3) The meta-analysis synthesizes SAM research in RS, quantifies adaptation strategies, task distributions, and application patterns, and highlights fine-tuning dominance, change detection focus, and agricultural and environmental applications, providing empirical support for capability evaluation and future development.
+**🚩 1.**   To our knowledge, this work conducts the first comprehensive and systematic review of the recent advancements of SAM in RS, fills gaps &emsp; &emsp;&nbsp;in current studies and offers a reference for the latest developments in this domain. 
+ 
+**🚩 2.**   Starting from the inherent challenges of the RS domain, this study identifies the bottlenecks of SAM in RSII tasks, explores its adaptation &emsp; &emsp; strategies, systematically evaluates its performance in both general and specific tasks, and proposes future research directions to expand &emsp; &emsp; its application scope and advance the field.
+
+**🚩 3.**   The meta-analysis synthesizes SAM research in RS, quantifies adaptation strategies, task distributions, and application patterns, and &nbsp;&nbsp;&emsp;&emsp;highlights   fine-tuning dominance, change detection focus, and agricultural and environmental applications, providing empirical support  &nbsp;&nbsp;&emsp;&emsp;for capability evaluation and future development.
 
 
 ## 🔗Citation
@@ -207,7 +209,7 @@ If you find our work useful in your research, please consider citing:
 | 2024.08 | Unleashing the Potential of SAM2 for Biomedical Images and Videos: A Survey | |
 | 2024.10 | On Efficient Variants of Segment Anything Model: A Survey | |
 
-> 📝 **Supplementary entry notice**:
+> 📄 **Supplementary entry notice**:
 
 The following is a supplementary review on SAM; contributions of additional related surveys are welcome.
 | **Date** | **Title** | **Link** |
@@ -307,5 +309,5 @@ The following is a supplementary review on SAM; contributions of additional rela
 #### June
 #### July
 #### August
-####  📅September🗓️ <div id="supplement"></div> 
+#### 🗓️ September <div id="supplement"></div> 
 - **Waiting for replenishment** ......
