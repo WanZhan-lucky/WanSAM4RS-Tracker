@@ -32,6 +32,7 @@ If you find our work useful in your research, please consider citing:
 - [A brief timeline of SAM’s development in RSII tasks](#introduction)
 - [Overview of SAM-Based Adaptation Methods in RSII](#adaptation)
 - [Summary of SAM-Based Methods for Routine Remote Sensing Tasks](#sam-rs-tasks)
+- [Summary of SAM-Based Methods for Specific Remote Sensing Applications](#sam-summary)
 - [Paper List](#paper-list) 
   - [Follow-up Papers ](#follow-up-papers)
     - [2025](#2025)
@@ -160,6 +161,28 @@ If you find our work useful in your research, please consider citing:
 | TS-SAM | | |
 | HSACNet | | |
 | SCM | | |
+
+## Summary of SAM-Based Methods for Specific RS Applications <div id="sam-summary"></div>
+| **Name** | **Title** | **Link** |
+|:--------:|:---------:|:--------:|
+| SAM-OBC | | |
+| LandslideNet | | |
+| SAMLS | | |
+| SinkSAM | | |
+| SAM-Road | | |
+| BF-SAM | | |
+| UV-SAM | | |
+| G2LDIE | | |
+| SAMPolyBuild | | |
+| SolarSAM | | |
+| FMARS | | |
+| USDA-SAM | | |
+| fabSAM | | |
+| FieldSeg | | |
+| TFNet | | |
+| MAF-SAM | | |
+| Tree-GPT | | |
+| 3D-GILBE | | |
 
 
 + [ ] Waiting for further updates ！
