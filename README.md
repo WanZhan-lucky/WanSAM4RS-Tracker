@@ -1,19 +1,19 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 
-# A Systematic Survey and Meta-Analysis of the Segment Anything Model in Remote Sensing Image Processing: Challenges, Advances, Applications, and Opportunities
+# 📝 A Systematic Survey and Meta-Analysis of the Segment Anything Model in Remote Sensing Image Processing: Challenges, Advances, Applications, and Opportunities
 
 > **The First Comprehensive and Systematic Review of the recent advancements of SAM in RS.** Zhipeng Wan, Sheng Wang, Wei Han, *et al.* [[paper]()] [[homepage](https://github.com/WanZhan-lucky/WanSAM4RS-Tracker)][[中文解读]()] 
 
 > **<p align="justify"> Abstract:** *In recent years, artificial intelligence (AI) technology has profoundly revolutionized the domain of remote sensing (RS), bringing transformative changes from data collection to analysis. Traditional remote sensing image interpretation (RSII) relies on manual interpretation and task-specific models, which suffer from low efficiency, high costs, and poor generalization, making them inadequate for large-scale data processing and complex tasks. With the emergence of foundational models (FMs) (i.e., large pre-trained AI models), not only has efficiency and accuracy been significantly improved, but diverse tasks can also be executed efficiently. Notably, the segment anything model (SAM) has challenged traditional visual paradigms, sparking widespread interest in task-agnostic visual FMs. Its exceptional zero-shot generalization capability has demonstrated outstanding performance in natural scenes, offering new perspectives and methodologies for the automation and intelligence of RSII. However, there are significant differences in spatial characteristics and data structures between RS images and natural images, meaning the application potential of SAM in RSII has yet to be comprehensively evaluated. Although existing studies have demonstrated SAM's adaptability in RSII, the current literature lacks systematic and in-depth reviews. To fill this gap, this study conducts a comprehensive review and meta-analysis for the first time, focusing on the challenges, advances, applications, and potential of SAM in RSII. The paper first reviews SAM’s advances in RS and compiles relevant research findings. It then analyzes the inherent challenges of RS and explores the bottlenecks of SAM in RS, including semantic information loss, discrepancies between training and target domains, prompt dependency and design complexity, and insufficient robustness. Next, it outlines the details of the meta-analysis conducted to reveal the research status of SAM in RS. Following that, the paper delves into the adaptation methods of SAM in RS image processing and evaluates its performance in both general and specific RS tasks. Finally, future research directions are summarized. Additionally, to support the continued development of this field, a dedicated repository has been created and maintained [here](https://github.com/WanZhan-lucky/WanSAM4RS-Tracker).* </p>
 
-## Contributions
+## 📌 Contributions
 - 1) To our knowledge, this work conducts the first comprehensive and systematic review of the recent advancements of SAM in RS, fills gaps in current studies and offers a reference for the latest developments in this domain. 
 - 2) Starting from the inherent challenges of the RS domain, this study identifies the bottlenecks of SAM in RSII tasks, explores its adaptation strategies, systematically evaluates its performance in both general and specific tasks, and proposes future research directions to expand its application scope and advance the field.
 - 3) The meta-analysis synthesizes SAM research in RS, quantifies adaptation strategies, task distributions, and application patterns, and highlights fine-tuning dominance, change detection focus, and agricultural and environmental applications, providing empirical support for capability evaluation and future development.
 
 
-## Citation
+## 🔗Citation
 
 If you find our work useful in your research, please consider citing:
 ```
@@ -22,36 +22,40 @@ If you find our work useful in your research, please consider citing:
 ## :fire: Highlights
 ![Last Updated](https://badgen.net/github/last-commit/liliu-avril/Awesome-Segment-Anything?icon=github&label=last%20updated&color=green)
 ```
--- We will continue to follow SAM’s latest progress in RS and update related research accordingly.
--- We also encourage and welcome researchers to actively contribute.
--- You can add paper information by submitting a Pull Request!
+ - We will continue to follow SAM’s latest progress in RS and update related research accordingly.
+ - We also encourage and welcome researchers to actively contribute.
+ - You can add paper information by submitting a Pull Request!
 ```
 
-## Main contents
+## 🧩 Main contents
 - [Segment Anything Model](#SAM)
-- [A brief timeline of SAM’s development in RSII tasks](#introduction)
 - [Literature Reviews on SAM Since Its Release](#sam-reviews)
+- [A brief timeline of SAM’s development in RSII tasks](#introduction)
 - [Overview of SAM-Based Adaptation Methods in RSII](#adaptation)
 - [Summary of SAM-Based Methods for Routine Remote Sensing Tasks](#sam-rs-tasks)
 - [Summary of SAM-Based Methods for Specific Remote Sensing Applications](#sam-summary)
-- [Paper List](#paper-list) 
-  - [Follow-up Papers ](#follow-up-papers)
-    - [2025](#2025)
-    - [2024](#2024)
-    - [2023](#2023)
-- [Open Source Projects]()
-- [Awesome Repositories for SAM]()
+- [A Chronological List of SAM-Based Model Papers for Remote Sensing](#sam-paper-list)
+  - [2023](#2023)
+  - [2024](#2024)
+  - [2025](#2025)
+  - [To be supplemented](#supplement)
+  
 
-## Segment Anything Model <div id="SAM"></div>
+## ✨Latest Updates & 📢 Related Content！
+  + [ ]  [2025.07.02] **UrbanSAM** : "A Unified Framework with Multimodal Fine-tuning for Remote Sensing Semantic Segmentation" [[paper](https://ieeexplore.ieee.org/document/11063320)][[中文解读] (https://zhuanlan.zhihu.com/p/1924856324799324614)][[github](https://github.com/sstary/SSRS)]
+  + [x] SAM-CD  Adapting Segment Anything Model for Change Detection in VHR Remote Sensing Images  https://ieeexplore.ieee.org/document/10443350   https://github.com/DingLei14/SAM-CD https://github.com/DingLei14/SAM-CD
+  * SCD-SAM  SCD-SAM: Adapting Segment Anything Model for Semantic Change Detection in Remote Sensing Imagery https://ieeexplore.ieee.org/abstract/document/10543161
+  * [2025.05.09] Few-Shot Semantic Segmentation on Remote Sensing Images With Learnable Prototype  [[paper](https://ieeexplore.ieee.org/abstract/document/10994816)]
+  * MC-SAM Seg  https://zhuanlan.zhihu.com/p/715411620
+  * [2025.01.29] SAM Enhanced Semantic Segmentation for Remote Sensing Imagery Without Additional Training   https://github.com/qycools/SESSRS   https://ieeexplore.ieee.org/document/10857947
+  * https://github.com/AkashahS/segRS
 
+## ✅ Segment Anything Model <div id="SAM"></div>
 &nbsp;&nbsp;&nbsp;&nbsp;Meta AI introduced the foundational vision model Segment Anything Model ([SAM](https://segment-anything.com/)), which adopts a prompt-driven image segmentation paradigm to generate precise object masks automatically or interactively. SAM demonstrates remarkable performance in natural image processing tasks. Its core architecture comprises three main components: an image encoder based on the Vision Transformer (ViT) architecture , a prompt encoder, and a mask decoder.
 ![image](https://github.com/WanZhan-lucky/WanSAM4RS-Tracker/blob/main/SAMRSI.jpg)
 &nbsp;&nbsp;&nbsp;&nbsp;In late July 2024, Meta followed up with the release of [SAM2](https://github.com/facebookresearch/segment-anything) and [SAM2.1](https://github.com/facebookresearch/sam2), which build upon the original SAM by introducing a streaming memory architecture and refining the prompt mechanism. SAM2 aims to unify image and video segmentation by integrating spatial and temporal information for seamless transitions between static and dynamic content, while SAM2.1 further enhances occlusion handling through data augmentation and improved positional encoding, thereby broadening its application scope. For instance, [MemorySAM](https://github.com/Chenfei-Liao/MemorySAM) introduces modality-agnostic memory and semantic prototypes for cross-modal enhancement; [SAM2.1++](https://ieeexplore.ieee.org/document/11094917) incorporates distractor-aware memory and introspective updates to improve tracking robustness.
 
-
-
-
-## A brief timeline of SAM’s development in RSII tasks <div id="introduction"></div>
+## ⏳A brief timeline of SAM’s development in RSII tasks <div id="introduction"></div>
 ![image](https://github.com/WanZhan-lucky/WanSAM4RS-Tracker/blob/main/SAMTimeWan-analysis-bigrevised.png)
 
 - [2023.04] **SAM** : "Segment anything" [[paper](https://arxiv.org/abs/2304.02643)][[homepage](https://segment-anything.com)]
@@ -99,7 +103,7 @@ If you find our work useful in your research, please consider citing:
 
 *If you find any incomplete parts in the compilation, especially missing GitHub links for papers, please feel free to let me know by submitting an issue on GitHub. I will update and improve it in a timely manner.*
 
-## Overview of SAM-Based Adaptation Methods in RSII <div id="adaptation"></div>
+## 🤖 Overview of SAM-Based Adaptation Methods in RSII <div id="adaptation"></div>
 | **Name** | **Title** | **Link** |
 |:----------:|:-----------:|:----------:|
 |CWSAM | |  |
@@ -142,7 +146,7 @@ If you find our work useful in your research, please consider citing:
 |SSRS		| | |
 |TFNet | | |
 
-## Summary of SAM-Based Methods for Routine RS Tasks <div id="sam-rs-tasks"></div>
+## 🧬 Summary of SAM-Based Methods for Routine RS Tasks <div id="sam-rs-tasks"></div>
 | **Name** | **Title** | **Link** |
 |:--------:|:---------:|:--------:|
 | DF4LCZ | | |
@@ -166,7 +170,7 @@ If you find our work useful in your research, please consider citing:
 | HSACNet | | |
 | SCM | | |
 
-## Summary of SAM-Based Methods for Specific RS Applications <div id="sam-summary"></div>
+## 🛠️ Summary of SAM-Based Methods for Specific RS Applications <div id="sam-summary"></div>
 | **Name** | **Title** | **Link** |
 |:--------:|:---------:|:--------:|
 | SAM-OBC | | |
@@ -188,7 +192,7 @@ If you find our work useful in your research, please consider citing:
 | Tree-GPT | | |
 | 3D-GILBE | | |
 
-## Literature Reviews on SAM Since Its Release <div id="sam-reviews"></div>
+## 🌐 Literature Reviews on SAM Since Its Release <div id="sam-reviews"></div>
 
 | **Date** | **Title** | **Link** |
 |:--------:|:----------:|:--------:|
@@ -203,64 +207,105 @@ If you find our work useful in your research, please consider citing:
 | 2024.08 | Unleashing the Potential of SAM2 for Biomedical Images and Videos: A Survey | |
 | 2024.10 | On Efficient Variants of Segment Anything Model: A Survey | |
 
-> 📌 **Supplementary entry notice**:
+> 📝 **Supplementary entry notice**:
 
 The following is a supplementary review on SAM; contributions of additional related surveys are welcome.
 | **Date** | **Title** | **Link** |
 |:--------:|:----------:|:--------:|
 | 2024.06| 分割一切模型SAM的潜力与展望：综述 *(Supplementary)* ||
 | ...| ... |...|
-
-
-+ [ ] Waiting for further updates ！
-  * [2025.07.02] **UrbanSAM** : "A Unified Framework with Multimodal Fine-tuning for Remote Sensing Semantic Segmentation" [[paper](https://ieeexplore.ieee.org/document/11063320)][[中文解读] (https://zhuanlan.zhihu.com/p/1924856324799324614)][[github](https://github.com/sstary/SSRS)]
-    * SAM-CD  Adapting Segment Anything Model for Change Detection in VHR Remote Sensing Images  https://ieeexplore.ieee.org/document/10443350   https://github.com/DingLei14/SAM-CD https://github.com/DingLei14/SAM-CD
-    * SCD-SAM  SCD-SAM: Adapting Segment Anything Model for Semantic Change Detection in Remote Sensing Imagery https://ieeexplore.ieee.org/abstract/document/10543161
-    * [2025.05.09] Few-Shot Semantic Segmentation on Remote Sensing Images With Learnable Prototype  [[paper](https://ieeexplore.ieee.org/abstract/document/10994816)]
-    * MC-SAM Seg  https://zhuanlan.zhihu.com/p/715411620
-    * [2025.01.29] SAM Enhanced Semantic Segmentation for Remote Sensing Imagery Without Additional Training   https://github.com/qycools/SESSRS   https://ieeexplore.ieee.org/document/10857947
-    * https://github.com/AkashahS/segRS
  
-## Monthly Research Literature on Segment Anything Model (SAM) in the Field of Remote Sensing（“Further Revisions Needed”）
+## 📚 A Chronological List of SAM-Based Model Papers for Remote Sensing  <div id="sam-paper-list"></div> 
 
-| Date     | Name               | Title                                                                                                            | Code |
-|----------|--------------------|----------------------------------------------------------------------------------------------------------------|------|
-| 2024.10  | RS-TextWS-Seg      | Context-Aggregated and SAM-Guided Network for ViT-Based Instance Segmentation in Remote Sensing Images           | None |
-|          | SinkSAM            | SinkSAM: A Monocular Depth-Guided SAM Framework for Automatic Sinkhole Segmentation                              | None |
-|          | SAMPolyBuild       | SAMPolyBuild: Adapting the Segment Anything Model for Polygonal Building Extraction                              | None |
-|          | SolarSAM           | SolarSAM: Building-Scale Photovoltaic Potential Assessment Based on SAM and Remote Sensing                       | None |
-| 2024.09  | SAM-RSIS           | Progressively Adapting SAM with Box Prompting to Remote Sensing Image Instance Segmentation                      | None |
-|          | RegDA              | Local Region Homogenizing for Cross-Domain Remote Sensing Image Segmentation                                    | None |
-|          | PointSAM           | Pointly-Supervised SAM for Remote Sensing Images                                                                | None |
-|          | SAM-Road           | Segment Anything Model for Road Network Graph Extraction                                                        | None |
-|          | TFNet              | Integrating SAM Derived Boundary Prior and High-Level Semantics for Cropland Extraction                         | None |
-| 2024.08  | MC-SAM SEG         | Tuning a SAM-Based Model with Multi-Cognitive Visual Adapter to Remote Sensing Instance Segmentation            | None |
-|          | SAM_MLoRAF         | Multi-LoRA Fine-Tuned SAM for Urban Man-Made Object Extraction                                                   | None |
-|          | MM-SAM             | Segment Anything with Multiple Modalities                                                                      | None |
-|          | SSRS               | SAM-Assisted Remote Sensing Imagery Semantic Segmentation with Object and Boundary Constraints                  | None |
-| 2024.07  | Road-SAM           | Adapting SAM to Road Extraction from Large Very-High-Resolution Optical Remote Sensing Images                   | None |
-|          | CSNet              | Context-Aggregated and SAM-Guided Network for ViT-Based Instance Segmentation in Remote Sensing Images          | None |
-|          | SAM4Refugee        | Leveraging SAM in Identifying Buildings within Refugee Camps for Humanitarian Operations                        | None |
-| 2024.06  | ALPS               | An Auto-Labeling and Pre-Training Scheme for Remote Sensing Segmentation with SAM                               | None |
-|          | SAM-CFFNet         | SAM-Based Cross-Feature Fusion Network for Intelligent Identification of Landslides                             | None |
-|          | DF4LCZ             | A SAM-Empowered Data Fusion Framework for Scene-Level Local Climate Zone Classification                         | None |
-| 2024.05  | MeSAM              | Multiscale Enhanced Segment Anything Model for Optical Remote Sensing Images                                    | None |
-|          | SCD-SAM            | Adapting SAM for Semantic Change Detection in Remote Sensing Imagery                                            | None |
-|          | FMARS              | Annotating Remote Sensing Images for Disaster Management Using Foundation Models                                | None |
-| 2024.04  | SAM-CD             | Segment Anything Model Guided Semantic Knowledge Learning for Remote Sensing Change Detection                  | None |
-|          | CocoaNet           | Weakly Supervised Semantic Segmentation with Consistency-Constrained Multi-Class Attention for Remote Sensing   | None |
-| 2023.12  | AI-SAM             | Automatic and Interactive Segment Anything Model                                                                | None |
-|          | SAM-Adapter        | Adapting Segment Anything in Underperformed Scenes                                                              | None |
-|          | STC                | Segment-then-Classify: Few-Shot Instance Segmentation for Environmental Remote Sensing                          | None |
-| 2023.11  | GeoSAM             | Fine-Tuning SAM with Sparse and Dense Visual Prompting for Automated Segmentation of Mobility Infrastructure     | None |
-|          | RingMo-SAM         | A Foundation Model for Segment Anything in Multimodal Remote-Sensing Images                                     | None |
-| 2023.10  | Zero-Shot Refinement | Zero-Shot Refinement of Buildings' Segmentation Models using SAM                                              | None |
-|          | Tree-GPT           | Modular Large Language Model Expert System for Forest Remote Sensing Image Understanding                       | None |
-| 2023.09  | GroupPrompter      | A Prompting Method for Semantic Segmentation Based on SAM                                                       | None |
-|          | Enhancing USDA NASS | Enhancing USDA NASS Cropland Data Layer with Segment Anything Model                                             | None |
-| 2023.06  | -                  | On Aligning SAM to Remote Sensing Data                                                                          | None |
-| 2023.05  | Samrs              | Scaling-up Remote Sensing Segmentation Dataset with Segment Anything Model                                      | None |
-|          | SAM-VQA            | SAM-VQA: Supervised Attention-Based Visual Question Answering Model for Post-Disaster Damage Assessment         | None |
-| 2023.04  | -                  | Segment Anything Model                                                                                          | None |
-|          | SATIR              | Learning to "Segment Anything" in Thermal Infrared Images Through Knowledge Distillation                        | None |
-|          | Text2seg           | Text2seg: Remote Sensing Image Semantic Segmentation via Text-Guided Visual Foundation Models                  | None |
+### 📘2023  <div id="2023"></div> 
+
+
+#### April
+- **SAM** – Segment Anything Model  
+- **SATIR** – Learning to "Segment Anything" in Thermal Infrared Images Through Knowledge Distillation  
+- **Text2seg** – Text2seg: Remote Sensing Image Semantic Segmentation via Text-Guided Visual Foundation Models  
+
+#### May
+- **Samrs** – Scaling-up Remote Sensing Segmentation Dataset with Segment Anything Model  
+- **SAM-VQA** – SAM-VQA: Supervised Attention-Based Visual Question Answering Model for Post-Disaster Damage Assessment  
+
+#### June
+- **(Unnamed)** – On Aligning SAM to Remote Sensing Data  
+
+#### September
+- **GroupPrompter** – A Prompting Method for Semantic Segmentation Based on SAM  
+- **Enhancing USDA NASS** – Enhancing USDA NASS Cropland Data Layer with Segment Anything Model  
+
+#### October
+- **Zero-Shot Refinement** – Zero-Shot Refinement of Buildings' Segmentation Models using SAM  
+- **Tree-GPT** – Modular Large Language Model Expert System for Forest Remote Sensing Image Understanding  
+
+#### November
+- **GeoSAM** – Fine-Tuning SAM with Sparse and Dense Visual Prompting for Automated Segmentation of Mobility Infrastructure  
+- **RingMo-SAM** – A Foundation Model for Segment Anything in Multimodal Remote-Sensing Images  
+
+#### December
+- **AI-SAM** – Automatic and Interactive Segment Anything Model  
+- **SAM-Adapter** – Adapting Segment Anything in Underperformed Scenes  
+- **STC** – Segment-then-Classify: Few-Shot Instance Segmentation for Environmental Remote Sensing  
+
+---
+
+### 📙2024  <div id="2024"></div> 
+#### January
+#### February
+#### March
+#### April
+- **SAM-CD** – Segment Anything Model Guided Semantic Knowledge Learning for Remote Sensing Change Detection  
+- **CocoaNet** – Weakly Supervised Semantic Segmentation with Consistency-Constrained Multi-Class Attention for Remote Sensing  
+
+#### May
+- **MeSAM** – Multiscale Enhanced Segment Anything Model for Optical Remote Sensing Images  
+- **SCD-SAM** – Adapting SAM for Semantic Change Detection in Remote Sensing Imagery  
+- **FMARS** – Annotating Remote Sensing Images for Disaster Management Using Foundation Models  
+
+#### June
+- **ALPS** – An Auto-Labeling and Pre-Training Scheme for Remote Sensing Segmentation with SAM  
+- **SAM-CFFNet** – SAM-Based Cross-Feature Fusion Network for Intelligent Identification of Landslides  
+- **DF4LCZ** – A SAM-Empowered Data Fusion Framework for Scene-Level Local Climate Zone Classification  
+
+#### July
+- **Road-SAM** – Adapting SAM to Road Extraction from Large Very-High-Resolution Optical Remote Sensing Images  
+- **CSNet** – Context-Aggregated and SAM-Guided Network for ViT-Based Instance Segmentation in Remote Sensing Images  
+- **SAM4Refugee** – Leveraging SAM in Identifying Buildings within Refugee Camps for Humanitarian Operations  
+
+#### August
+- **MC-SAM SEG** – Tuning a SAM-Based Model with Multi-Cognitive Visual Adapter to Remote Sensing Instance Segmentation  
+- **SAM_MLoRAF** – Multi-LoRA Fine-Tuned SAM for Urban Man-Made Object Extraction  
+- **MM-SAM** – Segment Anything with Multiple Modalities  
+- **SSRS** – SAM-Assisted Remote Sensing Imagery Semantic Segmentation with Object and Boundary Constraints  
+
+#### September
+- **SAM-RSIS** – Progressively Adapting SAM with Box Prompting to Remote Sensing Image Instance Segmentation  
+- **RegDA** – Local Region Homogenizing for Cross-Domain Remote Sensing Image Segmentation  
+- **PointSAM** – Pointly-Supervised SAM for Remote Sensing Images  
+- **SAM-Road** – Segment Anything Model for Road Network Graph Extraction  
+- **TFNet** – Integrating SAM Derived Boundary Prior and High-Level Semantics for Cropland Extraction  
+
+#### October
+- **RS-TextWS-Seg** – Context-Aggregated and SAM-Guided Network for ViT-Based Instance Segmentation in Remote Sensing Images  
+- **SinkSAM** – SinkSAM: A Monocular Depth-Guided SAM Framework for Automatic Sinkhole Segmentation  
+- **SAMPolyBuild** – SAMPolyBuild: Adapting the Segment Anything Model for Polygonal Building Extraction  
+- **SolarSAM** – SolarSAM: Building-Scale Photovoltaic Potential Assessment Based on SAM and Remote Sensing  
+
+#### November
+#### December
+
+---
+
+### 📗2025  <div id="2025"></div> 
+#### January
+#### February
+#### March
+#### April
+#### May
+#### June
+#### July
+#### August
+####  📅September🗓️   <div id="supplement"></div> 
+- **Waiting for replenishment** ......
