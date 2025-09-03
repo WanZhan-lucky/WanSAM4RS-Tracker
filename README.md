@@ -30,6 +30,7 @@ If you find our work useful in your research, please consider citing:
 ## Main contents
 - [Segment Anything Model](#SAM)
 - [A brief timeline of SAM’s development in RSII tasks](#introduction)
+- [Literature Reviews on SAM Since Its Release](#sam-reviews)
 - [Overview of SAM-Based Adaptation Methods in RSII](#adaptation)
 - [Summary of SAM-Based Methods for Routine Remote Sensing Tasks](#sam-rs-tasks)
 - [Summary of SAM-Based Methods for Specific Remote Sensing Applications](#sam-summary)
@@ -45,7 +46,10 @@ If you find our work useful in your research, please consider citing:
 
 &nbsp;&nbsp;&nbsp;&nbsp;Meta AI introduced the foundational vision model Segment Anything Model ([SAM](https://segment-anything.com/)), which adopts a prompt-driven image segmentation paradigm to generate precise object masks automatically or interactively. SAM demonstrates remarkable performance in natural image processing tasks. Its core architecture comprises three main components: an image encoder based on the Vision Transformer (ViT) architecture , a prompt encoder, and a mask decoder.
 ![image](https://github.com/WanZhan-lucky/WanSAM4RS-Tracker/blob/main/SAMRSI.jpg)
-&nbsp;&nbsp;&nbsp;&nbsp;In late July 2024, Meta followed up with the release of [SAM2](https://github.com/facebookresearch/segment-anything) and [SAM2.1](https://github.com/facebookresearch/sam2), which build upon the original SAM by introducing a streaming memory architecture and refining the prompt mechanism. SAM2 aims to unify image and video segmentation by integrating spatial and temporal information for seamless transitions between static and dynamic content, while SAM2.1 further enhances occlusion handling through data augmentation and improved positional encoding, thereby broadening its application scope.
+&nbsp;&nbsp;&nbsp;&nbsp;In late July 2024, Meta followed up with the release of [SAM2](https://github.com/facebookresearch/segment-anything) and [SAM2.1](https://github.com/facebookresearch/sam2), which build upon the original SAM by introducing a streaming memory architecture and refining the prompt mechanism. SAM2 aims to unify image and video segmentation by integrating spatial and temporal information for seamless transitions between static and dynamic content, while SAM2.1 further enhances occlusion handling through data augmentation and improved positional encoding, thereby broadening its application scope. For instance, [MemorySAM](https://github.com/Chenfei-Liao/MemorySAM) introduces modality-agnostic memory and semantic prototypes for cross-modal enhancement; [SAM2.1++](https://ieeexplore.ieee.org/document/11094917) incorporates distractor-aware memory and introspective updates to improve tracking robustness.
+
+
+
 
 ## A brief timeline of SAM’s development in RSII tasks <div id="introduction"></div>
 ![image](https://github.com/WanZhan-lucky/WanSAM4RS-Tracker/blob/main/SAMTimeWan-analysis-bigrevised.png)
@@ -183,6 +187,29 @@ If you find our work useful in your research, please consider citing:
 | MAF-SAM | | |
 | Tree-GPT | | |
 | 3D-GILBE | | |
+
+## Literature Reviews on SAM Since Its Release <div id="sam-reviews"></div>
+
+| **Date** | **Title** | **Link** |
+|:--------:|:----------:|:--------:|
+| 2023.05 | A Comprehensive Survey on Segment Anything Model for Vision and Beyond | |
+| 2023.05 | A Survey on Segment Anything Model (SAM): Vision Foundation Model Meets Prompt Engineering | |
+| 2023.09 | Research on Derived Tasks and Realistic Applications of Segment Anything Model: A Literature Review | |
+| 2024.01 | Segment Anything Model (SAM) for Medical Image Segmentation: A Preliminary Review | |
+| 2024.02 | Segment anything model for medical image segmentation: Current Status and Future Directions | |
+| 2024.04 | Segment Anything Is Not Always Perfect: An Investigation of SAM on Different Real-world Application Scenarios | |
+| 2024.06 | An Empirical Study on the Robustness of the Segment Anything Model (SAM) | |
+| 2024.07 | Segment Anything for Videos: A Systematic Survey | |
+| 2024.08 | Unleashing the Potential of SAM2 for Biomedical Images and Videos: A Survey | |
+| 2024.10 | On Efficient Variants of Segment Anything Model: A Survey | |
+
+> 📌 **Supplementary entry notice**:
+
+The following is a supplementary review on SAM; contributions of additional related surveys are welcome.
+| **Date** | **Title** | **Link** |
+|:--------:|:----------:|:--------:|
+| 2024.06| 分割一切模型SAM的潜力与展望：综述 *(Supplementary)* ||
+| ...| ... |...|
 
 
 + [ ] Waiting for further updates ！
