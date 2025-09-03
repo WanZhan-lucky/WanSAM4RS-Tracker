@@ -28,10 +28,10 @@ If you find our work useful in your research, please consider citing:
 ```
 
 ## Main contents
-- [SAM](#SAM)
+- [Segment Anything Model](#SAM)
 - [A brief timeline of SAM’s development in RSII tasks](#introduction)
-- [ Overview of SAM-Based Adaptation Methods in RSII](#adaptation)
-- 
+- [Overview of SAM-Based Adaptation Methods in RSII](#adaptation)
+- [Summary of SAM-Based Methods for Routine Remote Sensing Tasks](#sam-rs-tasks)
 - [Paper List](#paper-list) 
   - [Follow-up Papers ](#follow-up-papers)
     - [2025](#2025)
@@ -40,10 +40,11 @@ If you find our work useful in your research, please consider citing:
 - [Open Source Projects]()
 - [Awesome Repositories for SAM]()
 
-## Segment Anything Model (SAM) <div id="SAM"></div>
+## Segment Anything Model <div id="SAM"></div>
 
-Meta AI introduced the foundational vision model Segment Anything Model ([SAM](https://segment-anything.com/)), which adopts a prompt-driven image segmentation paradigm to generate precise object masks automatically or interactively. SAM demonstrates remarkable performance in natural image processing tasks. Its core architecture  comprises three main components: an image encoder based on the Vision Transformer (ViT) architecture , a prompt encoder, and a mask decoder.
+&nbsp;&nbsp;&nbsp;&nbsp;Meta AI introduced the foundational vision model Segment Anything Model ([SAM](https://segment-anything.com/)), which adopts a prompt-driven image segmentation paradigm to generate precise object masks automatically or interactively. SAM demonstrates remarkable performance in natural image processing tasks. Its core architecture comprises three main components: an image encoder based on the Vision Transformer (ViT) architecture , a prompt encoder, and a mask decoder.
 ![image](https://github.com/WanZhan-lucky/WanSAM4RS-Tracker/blob/main/SAMRSI.jpg)
+&nbsp;&nbsp;&nbsp;&nbsp;In late July 2024, Meta followed up with the release of [SAM2](https://github.com/facebookresearch/segment-anything) and [SAM2.1](https://github.com/facebookresearch/sam2), which build upon the original SAM by introducing a streaming memory architecture and refining the prompt mechanism. SAM2 aims to unify image and video segmentation by integrating spatial and temporal information for seamless transitions between static and dynamic content, while SAM2.1 further enhances occlusion handling through data augmentation and improved positional encoding, thereby broadening its application scope.
 
 ## A brief timeline of SAM’s development in RSII tasks <div id="introduction"></div>
 ![image](https://github.com/WanZhan-lucky/WanSAM4RS-Tracker/blob/main/SAMTimeWan-analysis-bigrevised.png)
@@ -96,7 +97,7 @@ Meta AI introduced the foundational vision model Segment Anything Model ([SAM](h
 ## Overview of SAM-Based Adaptation Methods in RSII <div id="adaptation"></div>
 | **Name** | **Title** | **Link** |
 |:----------:|:-----------:|:----------:|
-|CWSAM | | [ClassWise‑SAM‑Adapter (Parameter‑Efficient Fine‑tuning for SAR segmentation)](https://arxiv.org/abs/2401.02326) :contentReference[oaicite:1]{index=1} |
+|CWSAM | |  |
 |Water-Adapter		| | |
 |RSAM-Seg		| | |
 |MC-SAM	SEG	| | |
@@ -135,6 +136,30 @@ Meta AI introduced the foundational vision model Segment Anything Model ([SAM](h
 |SEMPNET		| | |
 |SSRS		| | |
 |TFNet | | |
+
+## Summary of SAM-Based Methods for Routine RS Tasks <div id="sam-rs-tasks"></div>
+| **Name** | **Title** | **Link** |
+|:--------:|:---------:|:--------:|
+| DF4LCZ | | |
+| BSDSNet | | |
+| CocoaNet | | |
+| RS-TextWS-Seg | | |
+| CSNet | | |
+| STC | | |
+| RSPS-SAM | | |
+| FSAMDA | | |
+| SPFS | | |
+| SAM-CD | | |
+| ASS-CD | | |
+| TTP | | |
+| SCDM | | |
+| CS-WSCDNet | | |
+| <u>SAM-CD</u> | | |
+| SCD-SAM | | |
+| DED-SAM | | |
+| TS-SAM | | |
+| HSACNet | | |
+| SCM | | |
 
 
 + [ ] Waiting for further updates ！
