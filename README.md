@@ -42,7 +42,7 @@ If you find our work useful in your research, please consider citing:
   - [2023](#2023)
   - [2024](#2024)
   - [2025](#2025)
-  - [To be supplemented](#supplement)
+   - [22025.09(To be supplemented)](#supplement)
   
 
 ## ✨Latest Updates & 📢 Related Content！ [![Last Updated](https://img.shields.io/github/last-commit/WanZhan-lucky/WanSAM4RS-Tracker?label=Last%20Updated&color=blue)](https://github.com/WanZhan-lucky/WanSAM4RS-Tracker/commits)
