@@ -43,11 +43,7 @@ If you find our work useful in your research, please consider citing:
 - [8、0thers](#other)
   
 ## ✨Latest Updates & 📢 Related Content！ [![Last Updated](https://img.shields.io/github/last-commit/WanZhan-lucky/WanSAM4RS-Tracker?label=Last%20Updated&color=blue)](https://github.com/WanZhan-lucky/WanSAM4RS-Tracker/commits)
-
-  + [x] https://github.com/AkashahS/segRS
-  relate
-  + [ ] [2025.05.09] Few-Shot Semantic Segmentation on Remote Sensing Images With Learnable Prototype [[paper](https://ieeexplore.ieee.org/abstract/document/10994816)]
-  + [ ] 
++ [x] 
 
 ## ✅ Segment Anything Model <div id="SAM"></div>
 &nbsp;&nbsp;&nbsp;&nbsp;Meta AI introduced the foundational vision model Segment Anything Model ([SAM](https://segment-anything.com/)), which adopts a prompt-driven image segmentation paradigm to generate precise object masks automatically or interactively. SAM demonstrates remarkable performance in natural image processing tasks. Its core architecture comprises three main components: an image encoder based on the Vision Transformer (ViT) architecture , a prompt encoder, and a mask decoder.
