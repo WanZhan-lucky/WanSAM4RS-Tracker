@@ -39,13 +39,9 @@ If you find our work useful in your research, please consider citing:
 - [5、Summary of SAM-Based Methods for Routine Remote Sensing Tasks](#sam-rs-tasks)
 - [6、Summary of SAM-Based Methods for Specific Remote Sensing Applications](#sam-summary)
 - [7、A Chronological List of SAM-Based Model Papers for Remote Sensing Research](#sam-paper-list)
-  - [2023](#2023)
-  - [2024](#2024)
-  - [2025](#2025)
-   - [22025.09 (To be supplemented)](#supplement)
--[8、0thers](#other)
+  - [2023](#2023) | [2024](#2024) | [2025](#2025) | [2025.09 (To be supplemented)](#supplement)
+- [8、0thers](#other)
   
-
 ## ✨Latest Updates & 📢 Related Content！ [![Last Updated](https://img.shields.io/github/last-commit/WanZhan-lucky/WanSAM4RS-Tracker?label=Last%20Updated&color=blue)](https://github.com/WanZhan-lucky/WanSAM4RS-Tracker/commits)
 
   + [x] https://github.com/AkashahS/segRS
