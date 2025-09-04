@@ -17,6 +17,10 @@
 
 **🚩 3.**   The meta-analysis synthesizes SAM research in RS, quantifies adaptation strategies, task distributions, and application patterns, and &nbsp;&nbsp;&emsp;&emsp;highlights   fine-tuning dominance, change detection focus, and agricultural and environmental applications, providing empirical support  &nbsp;&nbsp;&emsp;&emsp;for capability evaluation and future development.
 
+The translation of your sentence would be:
+
+#Note
+**Due to the large workload, some modules are not yet fully developed, and we will continue to supplement and improve them.**
 
 ## 🔗Citation
 
