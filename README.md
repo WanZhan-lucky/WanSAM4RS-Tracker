@@ -20,7 +20,7 @@
 The translation of your sentence would be:
 
 # Note
-**Due to the large workload, some modules are not yet fully developed, and we will continue to supplement and improve them.**
+**_Due to the large workload, some modules are not yet fully developed, and we will continue to supplement and improve them._**
 
 ## 🔗Citation
 
