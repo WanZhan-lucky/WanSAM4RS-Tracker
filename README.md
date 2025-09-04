@@ -213,10 +213,11 @@ If you find our work useful in your research, please consider citing:
 
 > 📄 **Supplementary entry notice**:
 
-The following is a supplementary review on SAM; contributions of additional related surveys are welcome.
+The following is a supplementary review on SAM, and researchers are welcome to contribute additional related surveys.
 | **Date** | **Title** | **Link** |
 |:--------:|:----------:|:--------:|
-| 2024.06| 分割一切模型SAM的潜力与展望：综述 *(Supplementary)* ||
+|2024.03 *(Supplementary)*  |Principles, applications, and advancements of the Segment Anything Model|  [homepage](https://direct.ewa.pub/proceedings/ace/article/view/10924)|
+| 2024.06 *(Supplementary)* | 分割一切模型SAM的潜力与展望：综述||
 | ...| ... |...|
  
 ## 📚 A Chronological List of SAM-Based Model Papers for Remote Sensing  <div id="sam-paper-list"></div> 
