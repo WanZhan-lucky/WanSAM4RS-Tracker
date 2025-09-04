@@ -43,16 +43,15 @@ If you find our work useful in your research, please consider citing:
   - [2024](#2024)
   - [2025](#2025)
    - [22025.09 (To be supplemented)](#supplement)
+-[8、0thers](#other)
   
 
 ## ✨Latest Updates & 📢 Related Content！ [![Last Updated](https://img.shields.io/github/last-commit/WanZhan-lucky/WanSAM4RS-Tracker?label=Last%20Updated&color=blue)](https://github.com/WanZhan-lucky/WanSAM4RS-Tracker/commits)
-  + [ ]  [2025.07.02] **UrbanSAM** : "A Unified Framework with Multimodal Fine-tuning for Remote Sensing Semantic Segmentation" [[paper](https://ieeexplore.ieee.org/document/11063320)][[中文解读] (https://zhuanlan.zhihu.com/p/1924856324799324614)][[github](https://github.com/sstary/SSRS)]
-  + [x] SAM-CD  Adapting Segment Anything Model for Change Detection in VHR Remote Sensing Images  https://ieeexplore.ieee.org/document/10443350   https://github.com/DingLei14/SAM-CD https://github.com/DingLei14/SAM-CD
-  * SCD-SAM  SCD-SAM: Adapting Segment Anything Model for Semantic Change Detection in Remote Sensing Imagery https://ieeexplore.ieee.org/abstract/document/10543161
-  * [2025.05.09] Few-Shot Semantic Segmentation on Remote Sensing Images With Learnable Prototype  [[paper](https://ieeexplore.ieee.org/abstract/document/10994816)]
-  * MC-SAM Seg  https://zhuanlan.zhihu.com/p/715411620
-  * [2025.01.29] SAM Enhanced Semantic Segmentation for Remote Sensing Imagery Without Additional Training   https://github.com/qycools/SESSRS   https://ieeexplore.ieee.org/document/10857947
-  * https://github.com/AkashahS/segRS
+
+  + [x] https://github.com/AkashahS/segRS
+  relate
+  + [ ] [2025.05.09] Few-Shot Semantic Segmentation on Remote Sensing Images With Learnable Prototype [[paper](https://ieeexplore.ieee.org/abstract/document/10994816)]
+  + [ ] 
 
 ## ✅ Segment Anything Model <div id="SAM"></div>
 &nbsp;&nbsp;&nbsp;&nbsp;Meta AI introduced the foundational vision model Segment Anything Model ([SAM](https://segment-anything.com/)), which adopts a prompt-driven image segmentation paradigm to generate precise object masks automatically or interactively. SAM demonstrates remarkable performance in natural image processing tasks. Its core architecture comprises three main components: an image encoder based on the Vision Transformer (ViT) architecture , a prompt encoder, and a mask decoder.
@@ -110,114 +109,114 @@ If you find our work useful in your research, please consider citing:
 ## 🤖 Overview of SAM-Based Adaptation Methods in RSII <div id="adaptation"></div>
 | **Name** | **Title** | **Link** |
 |:----------:|:-----------:|:----------:|
-|CWSAM | |  |
-|Water-Adapter		| | |
-|RSAM-Seg		| | |
-|MC-SAM	SEG	| | |
-|MSA-SAM		| | |
-|RS-SAM		| | |
-|UrbanSAM		| | |
-|Road-SAM		| | |
-|MANet		| | |
-|Conv-LoRA		| | |
-|SAM_MLoRA		| | |
-|MAF-SAM		| | |
-|ROS-SAM		| | |
-|AFFE-SAM		| | |
-|MoPEFT		| | |
-|Few-shot SLVM		| | |
-|SAM-RSIS		| | |
-|RSPrompter		| | |
-|GeoSAM		| | |
-|UV-SAM		| | |
-|PointSAM		| | |
-|PSP-SAM		| | |
-|MeSAM		| | |
-|BSDSNet		| | |
-|SAM-CFFNet		| | |
-|Text2Seg		| | |
-|RS2-SAM2		| | |
-|RSRefSeg		| | |
-|DirectSAM-RS		| | |
-|E2SAM		| | |
-|RingMoSAM		| | |
-|MM-SAM		| | |
-|AerOSeg		| | |
-|InstructSAM		| | |
-|PerSAM		| | |
-|Few-Shot SLVM		| | |
-|SEMPNET		| | |
-|SSRS		| | |
-|TFNet | | |
+|CWSAM | |  [[paper]()][[chinese explanation]()][[github]()]|
+|Water-Adapter		| | [[paper]()][[chinese explanation]()][[github]()]|
+|RSAM-Seg		| | [[paper]()][[chinese explanation]()][[github]()]|
+|MC-SAM	SEG	| | [[paper]()][[chinese explanation](https://zhuanlan.zhihu.com/p/715411620)][[github]()]|
+|MSA-SAM		| | [[paper]()][[chinese explanation]()][[github]()]|
+|RS-SAM		| | [[paper]()][[chinese explanation]()][[github]()]|
+|UrbanSAM		|A Unified Framework with Multimodal Fine-tuning for Remote Sensing Semantic Segmentation | [[paper](https://ieeexplore.ieee.org/document/11063320)][[chinese explanation] (https://zhuanlan.zhihu.com/p/1924856324799324614)][[github](https://github.com/sstary/SSRS)]|
+|Road-SAM		| | [[paper]()][[chinese explanation]()][[github]()]|
+|MANet		| | [[paper]()][[chinese explanation]()][[github]()]|
+|Conv-LoRA		| | [[paper]()][[chinese explanation]()][[github]()]|
+|SAM_MLoRA		| | [[paper]()][[chinese explanation]()][[github]()]|
+|MAF-SAM		| | [[paper]()][[chinese explanation]()][[github]()]|
+|ROS-SAM		| | [[paper]()][[chinese explanation]()][[github]()]|
+|AFFE-SAM		| | [[paper]()][[chinese explanation]()][[github]()]|
+|MoPEFT		| | [[paper]()][[chinese explanation]()][[github]()]|
+|Few-shot SLVM		| | [[paper]()][[chinese explanation]()][[github]()]|
+|SAM-RSIS		| | [[paper]()][[chinese explanation]()][[github]()]|
+|RSPrompter		| | [[paper]()][[chinese explanation]()][[github]()]|
+|GeoSAM		| | [[paper]()][[chinese explanation]()][[github]()]|
+|UV-SAM		| | [[paper]()][[chinese explanation]()][[github]()]|
+|PointSAM		| | [[paper]()][[chinese explanation]()][[github]()]|
+|PSP-SAM		| | [[paper]()][[chinese explanation]()][[github]()]|
+|MeSAM		| | [[paper]()][[chinese explanation]()][[github]()]|
+|BSDSNet		| | [[paper]()][[chinese explanation]()][[github]()]|
+|SAM-CFFNet		| | [[paper]()][[chinese explanation]()][[github]()]|
+|Text2Seg		| | [[paper]()][[chinese explanation]()][[github]()]|
+|RS2-SAM2		| | [[paper]()][[chinese explanation]()][[github]()]|
+|RSRefSeg		| | [[paper]()][[chinese explanation]()][[github]()]|
+|DirectSAM-RS		| | [[paper]()][[chinese explanation]()][[github]()]|
+|E2SAM		| | [[paper]()][[chinese explanation]()][[github]()]|
+|RingMoSAM		| | [[paper]()][[chinese explanation]()][[github]()]|
+|MM-SAM		| | [[paper]()][[chinese explanation]()][[github]()]|
+|AerOSeg		| | [[paper]()][[chinese explanation]()][[github]()]|
+|InstructSAM		| | [[paper]()][[chinese explanation]()][[github]()]|
+|PerSAM		| | [[paper]()][[chinese explanation]()][[github]()]|
+|Few-Shot SLVM		| | [[paper]()][[chinese explanation]()][[github]()]|
+|SEMPNET		| | [[paper]()][[chinese explanation]()][[github]()]|
+|SSRS		| | [[paper]()][[chinese explanation]()][[github]()]|
+|TFNet | | [[paper]()][[chinese explanation]()][[github]()]|
 
 ## 🧬 Summary of SAM-Based Methods for Routine RS Tasks <div id="sam-rs-tasks"></div>
 | **Name** | **Title** | **Link** |
 |:--------:|:---------:|:--------:|
-| DF4LCZ | | |
-| BSDSNet | | |
-| CocoaNet | | |
-| RS-TextWS-Seg | | |
-| CSNet | | |
-| STC | | |
-| RSPS-SAM | | |
-| FSAMDA | | |
-| SPFS | | |
-| SAM-CD | | |
-| ASS-CD | | |
-| TTP | | |
-| SCDM | | |
-| CS-WSCDNet | | |
-| <u>SAM-CD</u> | | |
-| SCD-SAM | | |
-| DED-SAM | | |
-| TS-SAM | | |
-| HSACNet | | |
-| SCM | | |
+| DF4LCZ | | |[[paper]()][[chinese explanation]()][[github]()]|
+| BSDSNet | | |[[paper]()][[chinese explanation]()][[github]()]|
+| CocoaNet | | |[[paper]()][[chinese explanation]()][[github]()]|
+| RS-TextWS-Seg | | |[[paper]()][[chinese explanation]()][[github]()]|
+| CSNet | | |[[paper]()][[chinese explanation]()][[github]()]|
+| STC | | |[[paper]()][[chinese explanation]()][[github]()]|
+| RSPS-SAM | | |[[paper]()][[chinese explanation]()][[github]()]|
+| FSAMDA | | |[[paper]()][[chinese explanation]()][[github]()]|
+| SPFS | | |[[paper]()][[chinese explanation]()][[github]()]|
+| SAM-CD |  Adapting Segment Anything Model for Change Detection in VHR Remote Sensing Images |[[paper](https://ieeexplore.ieee.org/document/10443350)][[chinese explanation]()][[github](https://github.com/DingLei14/SAM-CD)]|
+| ASS-CD | | |[[paper]()][[chinese explanation]()][[github]()]|
+| TTP | | |[[paper]()][[chinese explanation]()][[github]()]|
+| SCDM | | |[[paper]()][[chinese explanation]()][[github]()]|
+| CS-WSCDNet | | |[[paper]()][[chinese explanation]()][[github]()]|
+| <u>SAM-CD</u> | | |[[paper]()][[chinese explanation]()][[github]()]|
+| SCD-SAM |SCD-SAM: Adapting Segment Anything Model for Semantic Change Detection in Remote Sensing Imagery |[[paper](https://ieeexplore.ieee.org/abstract/document/10543161)][[chinese explanation]()][[github]()] |
+| DED-SAM | | |[[paper]()][[chinese explanation]()][[github]()]|
+| TS-SAM | | |[[paper]()][[chinese explanation]()][[github]()]|
+| HSACNet | | |[[paper]()][[chinese explanation]()][[github]()]|
+| SCM | | |[[paper]()][[chinese explanation]()][[github]()]|
 
 ## 🛠️ Summary of SAM-Based Methods for Specific RS Applications <div id="sam-summary"></div>
 | **Name** | **Title** | **Link** |
 |:--------:|:---------:|:--------:|
-| SAM-OBC | | |
-| LandslideNet | | |
-| SAMLS | | |
-| SinkSAM | | |
-| SAM-Road | | |
-| BF-SAM | | |
-| UV-SAM | | |
-| G2LDIE | | |
-| SAMPolyBuild | | |
-| SolarSAM | | |
-| FMARS | | |
-| USDA-SAM | | |
-| fabSAM | | |
-| FieldSeg | | |
-| TFNet | | |
-| MAF-SAM | | |
-| Tree-GPT | | |
-| 3D-GILBE | | |
+| SAM-OBC | | [[paper]()][[chinese explanation]()][[github]()]|
+| LandslideNet | | [[paper]()][[chinese explanation]()][[github]()]|
+| SAMLS | | [[paper]()][[chinese explanation]()][[github]()]|
+| SinkSAM | | [[paper]()][[chinese explanation]()][[github]()]|
+| SAM-Road | | [[paper]()][[chinese explanation]()][[github]()]|
+| BF-SAM | | [[paper]()][[chinese explanation]()][[github]()]|
+| UV-SAM | | [[paper]()][[chinese explanation]()][[github]()]|
+| G2LDIE | | [[paper]()][[chinese explanation]()][[github]()]|
+| SAMPolyBuild | | [[paper]()][[chinese explanation]()][[github]()]|
+| SolarSAM | | [[paper]()][[chinese explanation]()][[github]()]|
+| FMARS | | [[paper]()][[chinese explanation]()][[github]()]|
+| USDA-SAM | | [[paper]()][[chinese explanation]()][[github]()]|
+| fabSAM | | [[paper]()][[chinese explanation]()][[github]()]|
+| FieldSeg | | [[paper]()][[chinese explanation]()][[github]()]|
+| TFNet | | [[paper]()][[chinese explanation]()][[github]()]|
+| MAF-SAM | | [[paper]()][[chinese explanation]()][[github]()]|
+| Tree-GPT | | [[paper]()][[chinese explanation]()][[github]()]|
+| 3D-GILBE | | [[paper]()][[chinese explanation]()][[github]()]|
 
 ## 🌐 Literature Reviews on SAM Since Its Release <div id="sam-reviews"></div>
 
 | **Date** | **Title** | **Link** |
 |:--------:|:----------:|:--------:|
-| 2023.05 | A Comprehensive Survey on Segment Anything Model for Vision and Beyond | |
-| 2023.05 | A Survey on Segment Anything Model (SAM): Vision Foundation Model Meets Prompt Engineering | |
-| 2023.09 | Research on Derived Tasks and Realistic Applications of Segment Anything Model: A Literature Review | |
-| 2024.01 | Segment Anything Model (SAM) for Medical Image Segmentation: A Preliminary Review | |
-| 2024.02 | Segment anything model for medical image segmentation: Current Status and Future Directions | |
-| 2024.04 | Segment Anything Is Not Always Perfect: An Investigation of SAM on Different Real-world Application Scenarios | |
-| 2024.06 | An Empirical Study on the Robustness of the Segment Anything Model (SAM) | |
-| 2024.07 | Segment Anything for Videos: A Systematic Survey | |
-| 2024.08 | Unleashing the Potential of SAM2 for Biomedical Images and Videos: A Survey | |
-| 2024.10 | On Efficient Variants of Segment Anything Model: A Survey | |
+| 2023.05 | A Comprehensive Survey on Segment Anything Model for Vision and Beyond | [[paper]()][[chinese explanation]()][[github]()]|
+| 2023.05 | A Survey on Segment Anything Model (SAM): Vision Foundation Model Meets Prompt Engineering | [[paper]()][[chinese explanation]()][[github]()]|
+| 2023.09 | Research on Derived Tasks and Realistic Applications of Segment Anything Model: A Literature Review | [[paper]()][[chinese explanation]()][[github]()]|
+| 2024.01 | Segment Anything Model (SAM) for Medical Image Segmentation: A Preliminary Review | [[paper]()][[chinese explanation]()][[github]()]|
+| 2024.02 | Segment anything model for medical image segmentation: Current Status and Future Directions | [[paper]()][[chinese explanation]()][[github]()]|
+| 2024.04 | Segment Anything Is Not Always Perfect: An Investigation of SAM on Different Real-world Application Scenarios | [[paper]()][[chinese explanation]()][[github]()]|
+| 2024.06 | An Empirical Study on the Robustness of the Segment Anything Model (SAM) | [[paper]()][[chinese explanation]()][[github]()]|
+| 2024.07 | Segment Anything for Videos: A Systematic Survey | [[paper]()][[chinese explanation]()][[github]()]|
+| 2024.08 | Unleashing the Potential of SAM2 for Biomedical Images and Videos: A Survey | [[paper]()][[chinese explanation]()][[github]()]|
+| 2024.10 | On Efficient Variants of Segment Anything Model: A Survey | [[paper]()][[chinese explanation]()][[github]()]|
 
 > 📄 **Supplementary entry notice**:
 
 The following is a supplementary review on SAM, and researchers are welcome to contribute additional related surveys.
 | **Date** | **Title** | **Link** |
 |:--------:|:----------:|:--------:|
-|2024.03 *(Supplementary)*  |Principles, applications, and advancements of the Segment Anything Model|  [homepage](https://direct.ewa.pub/proceedings/ace/article/view/10924)|
-| 2024.06 *(Supplementary)* | 分割一切模型SAM的潜力与展望：综述||
+|2024.03 *(Supplementary)*  |Principles, applications, and advancements of the Segment Anything Model| [homepage](https://direct.ewa.pub/proceedings/ace/article/view/10924)|
+| 2024.06 *(Supplementary)* | 分割一切模型SAM的潜力与展望：综述|[[paper]()][[chinese explanation]()][[github]()]|
 | ...| ... |...|
  
 ## 📚 A Chronological List of SAM-Based Model Papers for Remote Sensing  <div id="sam-paper-list"></div> 
@@ -305,6 +304,7 @@ The following is a supplementary review on SAM, and researchers are welcome to c
 
 ### 📗2025  <div id="2025"></div> 
 #### January
+ - **/** – SAM Enhanced Semantic Segmentation for Remote Sensing Imagery Without Additional Training  – [[paper](https://ieeexplore.ieee.org/document/10857947)][[chinese explanation]()][[github](https://github.com/qycools/SESSRS )]  
 #### February
 #### March
 #### April
@@ -314,6 +314,9 @@ The following is a supplementary review on SAM, and researchers are welcome to c
 #### August
 #### 🗓️ September <div id="supplement"></div> 
 - **Waiting for replenishment** ......
+## Other: 【Remote Sensing Image Processing or SAM-related, for reference only.】 <div id="other"></div> 
+ + [ ] https://github.com/AkashahS/segRS
+ + [ ] [2025.05.09] Few-Shot Semantic Segmentation on Remote Sensing Images With Learnable Prototype [[paper](https://ieeexplore.ieee.org/abstract/document/10994816)]
 
 ## 📦 License
 This project is licensed under the [MIT License](./LICENSE.txt).  
