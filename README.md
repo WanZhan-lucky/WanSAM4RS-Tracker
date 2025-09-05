@@ -111,7 +111,7 @@ If you find our work useful in your research, please consider citing:
 |MC-SAM	SEG	| | [[paper]()][[chinese explanation](https://zhuanlan.zhihu.com/p/715411620)][[github]()]|
 |MSA-SAM		| | [[paper]()][[chinese explanation]()][[github]()]|
 |RS-SAM		| | [[paper]()][[chinese explanation]()][[github]()]|
-|UrbanSAM		|A Unified Framework with Multimodal Fine-tuning for Remote Sensing Semantic Segmentation | [[paper](https://ieeexplore.ieee.org/document/11063320)][[chinese explanation] (https://zhuanlan.zhihu.com/p/1924856324799324614)][[github](https://github.com/sstary/SSRS)]|
+|UrbanSAM		|A Unified Framework with Multimodal Fine-tuning for Remote Sensing Semantic Segmentation | [[paper](https://ieeexplore.ieee.org/document/11063320)][[chinese explanation](https://zhuanlan.zhihu.com/p/1924856324799324614)][[github](https://github.com/sstary/SSRS)]|
 |Road-SAM		| | [[paper]()][[chinese explanation]()][[github]()]|
 |MANet		| | [[paper]()][[chinese explanation]()][[github]()]|
 |Conv-LoRA		| | [[paper]()][[chinese explanation]()][[github]()]|
