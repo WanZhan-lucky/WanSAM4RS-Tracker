@@ -311,7 +311,7 @@ The following is a supplementary review on SAM, and researchers are welcome to c
 #### August
 #### 🗓️ September <div id="supplement"></div> 
 - **Waiting for replenishment** ......
-## Other: 【Remote Sensing Image Processing or SAM-related, for reference only.】 <div id="other"></div> 
+## Others: RSII or SAM-related, for reference only. <div id="other"></div> 
  + [ ] https://github.com/AkashahS/segRS
  + [ ] Few-Shot Semantic Segmentation on Remote Sensing Images With Learnable Prototype [[paper](https://ieeexplore.ieee.org/abstract/document/10994816)] [2025.05.09] 
 
