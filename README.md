@@ -19,7 +19,7 @@
 
 The translation of your sentence would be:
 
-# Note
+# Note ！！！
 **_Due to the large workload, some modules are not yet fully developed, and we will continue to supplement and improve them._**
 
 ## 🔗Citation
@@ -212,7 +212,8 @@ The following is a supplementary review on SAM, and researchers are welcome to c
 | **Date** | **Title** | **Link** |
 |:--------:|:----------:|:--------:|
 |2024.03 *(Supplementary)*  |Principles, applications, and advancements of the Segment Anything Model| [homepage](https://direct.ewa.pub/proceedings/ace/article/view/10924)|
-| 2024.06 *(Supplementary)* | 分割一切模型SAM的潜力与展望：综述|[[paper]()][[chinese explanation]()][[github]()]|
+| 2024.06 *(Supplementary)* |Potential and prospects of segment anything model：a survey （分割一切模型SAM的潜力与展望：综述）|[[paper](http://cjig.ijournals.cn/jig/ch/reader/view_abstract.aspx?flag=1&file_no=230792)]|
+|2025.07 *(Supplementary)* |Comprehensive review of segment anything model across multiple domains|[[paper](https://www.sciencedirect.com/science/article/abs/pii/S1051200425004816)]|
 | ...| ... |...|
  
 ## 📚 A Chronological List of SAM-Based Model Papers for Remote Sensing  <div id="sam-paper-list"></div> 
