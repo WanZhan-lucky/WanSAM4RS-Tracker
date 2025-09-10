@@ -107,16 +107,16 @@ If you find our work useful in your research, please consider citing:
 |:----------:|:-----------:|:----------:|
 |CWSAM | ClassWise-SAM-adapter: Parameter efficient fine-tuning adapts segment anything to SAR domain for semantic segmentation} |  [[paper](https://ieeexplore.ieee.org/document/10849617)][[chinese explanation](https://zhuanlan.zhihu.com/p/690725962)][[github](https://github.com/xypu98/CWSAM)]|
 |Water-Adapter		|Water-Adapter: adapting the segment anything model for surface water extraction in optical very-high-resolution remotely sensed imagery} | [[paper](https://www.tandfonline.com/doi/full/10.1080/2150704X.2024.2411067)]|
-|RSAM-Seg		| RSAM-Seg: A SAM-Based Model with Prior Knowledge Integration for Remote Sensing Image Semantic Segmentation [[paper](https://www.mdpi.com/2072-4292/17/4/590)][[homepage](https://chief-byte.github.io/RSAM-Seg-Site/)][[chinese explanation](https://zhuanlan.zhihu.com/p/684939858)]|
+|RSAM-Seg		| RSAM-Seg: A SAM-Based Model with Prior Knowledge Integration for Remote Sensing Image Semantic Segmentation |[[paper](https://www.mdpi.com/2072-4292/17/4/590)][[homepage](https://chief-byte.github.io/RSAM-Seg-Site/)][[chinese explanation](https://zhuanlan.zhihu.com/p/684939858)]|
 |MC-SAM	SEG	| Tuning a SAM-Based Model with Multi-Cognitive Visual Adapter to Remote Sensing Instance Segmentation | [[paper](https://ieeexplore.ieee.org/document/10776034)][[chinese explanation](https://zhuanlan.zhihu.com/p/715411620)]|
 |MSA-SAM		| Multi-scale Adapter Based on SAM for Remote Sensing Semantic Segmentation | [[paper](https://ieeexplore.ieee.org/abstract/document/10824913)][[chinese explanation](https://blog.csdn.net/m0_54239393/article/details/147773066)][[github](https://github.com/mint0126/Mult-scale-SAM)]|
 |RS-SAM		|RS-SAM: Integrating Multi-scale Information for Enhanced Remote Sensing Image Segmentation | [[homepage](https://openaccess.thecvf.com/content/ACCV2024/html/Zhang_RS-SAM_Integrating_Multi-Scale_Information_for_Enhanced_Remote_Sensing_Image_Segmentation_ACCV_2024_paper.html)]|
-|UrbanSAM		|A Unified Framework with Multimodal Fine-tuning for Remote Sensing Semantic Segmentation | [[paper](https://ieeexplore.ieee.org/document/11063320)][[chinese explanation](https://zhuanlan.zhihu.com/p/1924856324799324614)][[github](https://github.com/sstary/SSRS)]|
+|UrbanSAM		| Urbansam: Learning invariance-inspired adapters for segment anything models in urban construction | [[paper](https://arxiv.org/abs/2502.15199)][[chinese explanation](https://developer.volcengine.com/articles/7480397554527109129)]|
 |Road-SAM		|Road-sam: Adapting the segment anything model to road extraction from large very-high-resolution optical remote sensing images | [[paper](https://ieeexplore.ieee.org/document/10613866)]|
 |MANet		| MANet: Fine-Tuning Segment Anything Model for Multimodal Remote Sensing Semantic Segmentation | [[paper](https://arxiv.org/abs/2410.11160)][[chinese explanation](https://zhuanlan.zhihu.com/p/1924856324799324614)][[github](https://github.com/sstary/SSRS)]|
-|Conv-LoRA		| | [[paper]()][[chinese explanation]()][[github]()]|
-|SAM_MLoRA		| | [[paper]()][[chinese explanation]()][[github]()]|
-|MAF-SAM		| | [[paper]()][[chinese explanation]()][[github]()]|
+|Conv-LoRA		|Convolution meets lora: Parameter efficient finetuning for segment anything model | [[paper](https://arxiv.org/abs/2401.17868)][[chinese explanation](https://zhuanlan.zhihu.com/p/680461773)][[github](https://github.com/autogluon/autogluon/blob/master/examples/automm/Conv-LoRA/README.md)]|
+|SAM_MLoRA		| Multi-LoRA Fine-Tuned Segment Anything Model for Urban Man-Made Object Extraction | [[paper](https://ieeexplore.ieee.org/abstract/document/10637992)][[github](https://github.com/xiaoyan07/SAM_MLoRA)]|
+|MAF-SAM		| A multispectral remote sensing crop segmentation method based on Segment Anything Model using Multi-stage Adaptation Fine-tuning| [[paper](https://ieeexplore.ieee.org/abstract/document/10551868)][[chinese explanation](https://blog.csdn.net/JishuFengyang/article/details/140374521)]|
 |ROS-SAM		| | [[paper]()][[chinese explanation]()][[github]()]|
 |AFFE-SAM		| | [[paper]()][[chinese explanation]()][[github]()]|
 |MoPEFT		| | [[paper]()][[chinese explanation]()][[github]()]|
@@ -124,7 +124,7 @@ If you find our work useful in your research, please consider citing:
 |SAM-RSIS		| | [[paper]()][[chinese explanation]()][[github]()]|
 |RSPrompter		| | [[paper]()][[chinese explanation]()][[github]()]|
 |GeoSAM		| | [[paper]()][[chinese explanation]()][[github]()]|
-|UV-SAM		| | [[paper]()][[chinese explanation]()][[github]()]|
+|UV-SAM		| Uv-sam: Adapting segment anything model for urban village identification| [[paper](https://arxiv.org/abs/2401.08083)][[github](https://github.com/tsinghua-fib-lab/UV-SAM)][[chinese explanation](https://zhuanlan.zhihu.com/p/678607517)][[Blog](https://hub.baai.ac.cn/view/34556)] [[github](https://github.com/tsinghua-fib-lab/UV-SAM)][[chinese explanation](https://zhuanlan.zhihu.com/p/678607517)][[homepage](https://ojs.aaai.org/index.php/AAAI/article/view/30260)]|
 |PointSAM		| | [[paper]()][[chinese explanation]()][[github]()]|
 |PSP-SAM		| | [[paper]()][[chinese explanation]()][[github]()]|
 |MeSAM		| | [[paper]()][[chinese explanation]()][[github]()]|
@@ -187,7 +187,7 @@ If you find our work useful in your research, please consider citing:
 | fabSAM | | [[paper]()][[chinese explanation]()][[github]()]|
 | FieldSeg | | [[paper]()][[chinese explanation]()][[github]()]|
 | TFNet | | [[paper]()][[chinese explanation]()][[github]()]|
-| MAF-SAM | | [[paper]()][[chinese explanation]()][[github]()]|
+| MAF-SAM | A multispectral remote sensing crop segmentation method based on Segment Anything Model using Multi-stage Adaptation Fine-tuning | [[paper](https://ieeexplore.ieee.org/abstract/document/10551868)][[chinese explanation](https://blog.csdn.net/JishuFengyang/article/details/140374521)]|
 | Tree-GPT | | [[paper]()][[chinese explanation]()][[github]()]|
 | 3D-GILBE | | [[paper]()][[chinese explanation]()][[github]()]|
 
@@ -308,6 +308,8 @@ The following is a supplementary review on SAM, and researchers are welcome to c
 #### May
 #### June
 #### July
+- **MFNet** -  A Unified Framework with Multimodal Fine-tuning for Remote Sensing Semantic Segmentation - [[paper](https://ieeexplore.ieee.org/document/11063320)][[chinese explanation](https://zhuanlan.zhihu.com/p/1924856324799324614)][[github](https://github.com/sstary/SSRS)]
+
 - **CSW-SAM** – CSW-SAM: a cross-scale algorithm for very-high-resolution water body segmentation based on segment anything model 2 – [[paper](https://www.sciencedirect.com/science/article/pii/S0924271625002709)]
 
 #### August
@@ -316,8 +318,8 @@ The following is a supplementary review on SAM, and researchers are welcome to c
 ## Others: RSII or SAM-related, for reference only. <div id="other"></div> 
  + [ ] https://github.com/AkashahS/segRS
  + [ ] https://github.com/DongshuoYin/Remote-Sensing-Tuning-A-survey/blob/main/README.md
- + [ ] Few-Shot Semantic Segmentation on Remote Sensing Images With Learnable Prototype [[paper](https://ieeexplore.ieee.org/abstract/document/10994816)] [2025.05.09] 
-
+ + [ ] Few-Shot Semantic Segmentation on Remote Sensing Images With Learnable Prototype [[paper](https://ieeexplore.ieee.org/abstract/document/10994816)] [2025.05.09]
+ + [ ] 
 ## 📦 License
 This project is licensed under the [MIT License](./LICENSE.txt).  
 You are free to use, modify, and distribute this software with proper attribution.
