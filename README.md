@@ -26,6 +26,19 @@ The translation of your sentence would be:
 
 If you find our work useful in your research, please consider citing:
 ```
+@article{WAN2025436,
+title = {A systematic survey and meta-analysis of the segment anything model in remote sensing image processing: Challenges, advances, applications, and opportunities},
+journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
+volume = {229},
+pages = {436-466},
+year = {2025},
+issn = {0924-2716},
+doi = {https://doi.org/10.1016/j.isprsjprs.2025.08.023},
+url = {https://www.sciencedirect.com/science/article/pii/S092427162500334X},
+author = {Zhipeng Wan and Sheng Wang and Wei Han and Yuewei Wang and Xiaohui Huang and Xiaohan Zhang and Xiaodao Chen and Yunliang Chen},
+keywords = {Segment anything model, Remote sensing, Foundation model, Meta-analysis},
+abstract = {In recent years, artificial intelligence (AI) technology has profoundly revolutionized the domain of remote sensing (RS), bringing transformative changes from data collection to analysis. Traditional remote sensing image interpretation (RSII) relies on manual interpretation and task-specific models, which suffer from low efficiency, high costs, and poor generalization, making them inadequate for large-scale data processing and complex tasks. With the emergence of foundational models (FMs) (i.e., large pre-trained AI models), not only has efficiency and accuracy been significantly improved, but diverse tasks can also be executed efficiently. Notably, the segment anything model (SAM) has challenged traditional visual paradigms, sparking widespread interest in task-agnostic visual FMs. Its exceptional zero-shot generalization capability has demonstrated outstanding performance in natural scenes, offering new perspectives and methodologies for the automation and intelligence of RSII. However, there are significant differences in spatial characteristics and data structures between RS images and natural images, meaning the application potential of SAM in RSII has yet to be comprehensively evaluated. Although existing studies have demonstrated SAM’s adaptability in RSII, the current literature lacks systematic and in-depth reviews. To fill this gap, this study conducts a comprehensive review and meta-analysis for the first time, focusing on the challenges, advances, applications, and potential of SAM in RSII. The paper first reviews SAM’s advances in RS and compiles relevant research findings. It then analyzes the inherent challenges of RS and explores the bottlenecks of SAM in RS, including semantic information loss, discrepancies between training and target domains, prompt dependency and design complexity, and insufficient robustness. Next, it outlines the details of the meta-analysis conducted to reveal the research status of SAM in RS. Following that, the paper delves into the adaptation methods of SAM in RS image processing and evaluates its performance in both general and specific RS tasks. Finally, future research directions are summarized. Additionally, to support the continued development of this field, a dedicated repository has been created and maintained (https://github.com/WanZhan-lucky/WanSAM4RS-Tracker).}
+}
 ```
 
 ## :fire: Highlights
