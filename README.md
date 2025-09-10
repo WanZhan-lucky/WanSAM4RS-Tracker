@@ -105,8 +105,8 @@ If you find our work useful in your research, please consider citing:
 ## 🤖 Overview of SAM-Based Adaptation Methods in RSII <div id="adaptation"></div>
 | **Name** | **Title** | **Link** |
 |:----------:|:-----------:|:----------:|
-|CWSAM | |  [[paper]()][[chinese explanation]()][[github]()]|
-|Water-Adapter		| | [[paper]()][[chinese explanation]()][[github]()]|
+|CWSAM | ClassWise-SAM-adapter: Parameter efficient fine-tuning adapts segment anything to SAR domain for semantic segmentation} |  [[paper](https://ieeexplore.ieee.org/document/10849617)][[chinese explanation](https://zhuanlan.zhihu.com/p/690725962)][[github](https://github.com/xypu98/CWSAM)]|
+|Water-Adapter		|Water-Adapter: adapting the segment anything model for surface water extraction in optical very-high-resolution remotely sensed imagery} | [[paper]()][[chinese explanation]()][[github]()]|
 |RSAM-Seg		| | [[paper]()][[chinese explanation]()][[github]()]|
 |MC-SAM	SEG	| | [[paper]()][[chinese explanation](https://zhuanlan.zhihu.com/p/715411620)][[github]()]|
 |MSA-SAM		| | [[paper]()][[chinese explanation]()][[github]()]|
@@ -308,11 +308,14 @@ The following is a supplementary review on SAM, and researchers are welcome to c
 #### May
 #### June
 #### July
+- **CSW-SAM** – CSW-SAM: a cross-scale algorithm for very-high-resolution water body segmentation based on segment anything model 2 – [[paper](https://www.sciencedirect.com/science/article/pii/S0924271625002709)]
+
 #### August
 #### 🗓️ September <div id="supplement"></div> 
 - **Waiting for replenishment** ......
 ## Others: RSII or SAM-related, for reference only. <div id="other"></div> 
  + [ ] https://github.com/AkashahS/segRS
+ + [ ] https://github.com/DongshuoYin/Remote-Sensing-Tuning-A-survey/blob/main/README.md
  + [ ] Few-Shot Semantic Segmentation on Remote Sensing Images With Learnable Prototype [[paper](https://ieeexplore.ieee.org/abstract/document/10994816)] [2025.05.09] 
 
 ## 📦 License
